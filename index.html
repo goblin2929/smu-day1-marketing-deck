@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMU Day 1 — Marketing 101 + Channels & Social</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Archivo:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+    --paper:#f3efe6; --paper-2:#ece5d6;
+    --ink:#17140f; --ink-soft:#6a6253;
+    --accent:#d8442a; --proof:#2f6b5e; --exec:#b07a1e;
+    --teal:#234b43; --teal-soft:#9ec7bd; --apricot:#e8a08c;
+    --line:rgba(23,20,15,.16); --line-2:rgba(23,20,15,.30);
+  }
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:17px}
+html,body{background:#2a2620}
+body{font-family:'Archivo',sans-serif;color:var(--ink);font-size:1rem;
+    display:flex;flex-direction:column;align-items:center;gap:30px;padding:40px 20px}
+img{display:block;max-width:100%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.dk1,.dk2{display:contents}
+/* ===== Section 1 — Marketing 101 (scoped .dk1) ===== */
+.dk1 .slide{position:relative;width:1280px;height:720px;background:var(--paper);
+    overflow:hidden;box-shadow:0 28px 64px -28px rgba(0,0,0,.7);
+    padding:58px 70px;display:flex;flex-direction:column}
+.dk1 .slide::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/></svg>");
+    opacity:.05;mix-blend-mode:multiply}
+.dk1 .slide>*{position:relative;z-index:1}
+.dk1 .kicker{font-family:'Spline Sans Mono',monospace;font-size:13px;letter-spacing:.3em;
+    text-transform:uppercase;color:var(--ink-soft);display:flex;align-items:center;gap:13px}
+.dk1 .kicker .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.dk1 .kicker .num{margin-left:auto;color:var(--ink)}
+.dk1 .rule{height:1px;background:var(--line);width:100%;margin:16px 0 0}
+.dk1 h1.d{font-family:'Fraunces',serif;font-weight:560;line-height:1.0;letter-spacing:-.015em;font-optical-sizing:auto}
+.dk1 h2.d{font-family:'Fraunces',serif;font-weight:540;line-height:1.05;letter-spacing:-.01em}
+.dk1 .lead{font-size:19px;color:var(--ink-soft);line-height:1.4;max-width:900px}
+.dk1 .center{flex:1;display:flex;flex-direction:column;justify-content:center}
+.dk1 .accent{color:var(--accent)}
+.dk1 em.i{color:var(--accent);font-style:italic;font-weight:430}
+.dk1 .flow{display:grid;gap:0;margin-top:26px}
+.dk1 .flow.c5{grid-template-columns:repeat(5,1fr)}
+.dk1 .step{padding:20px 18px 18px 0;position:relative}
+.dk1 .flow .step:not(:last-child)::after{content:"→";position:absolute;right:10px;top:22px;color:var(--accent);font-size:18px}
+.dk1 .step .lab{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;color:var(--ink-soft);margin-bottom:8px}
+.dk1 .step .big{font-family:'Fraunces',serif;font-size:21px;line-height:1.12;font-weight:480}
+.dk1 .band{margin-top:10px;height:3px;width:32px;border-radius:2px}
+.dk1 .b1{background:var(--accent)}
+.dk1 .b2{background:var(--exec)}
+.dk1 .b3{background:var(--proof)}
+.dk1 .duo{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:auto;margin-bottom:auto}
+.dk1 .pane{border-radius:5px;padding:30px 32px;min-height:300px;display:flex;flex-direction:column}
+.dk1 .pane .pl{font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:16px}
+.dk1 .pane .ph{font-family:'Fraunces';font-size:30px;font-weight:540;line-height:1.08}
+.dk1 .pane .pd{font-size:17px;margin-top:14px;line-height:1.4;color:var(--ink-soft)}
+.dk1 .pane.a{background:#fff;border:1px solid rgba(216,68,42,.4)}
+.dk1 .pane.a .pl{color:var(--accent)}
+.dk1 .pane.b{background:var(--ink);color:var(--paper)}
+.dk1 .pane.b .pl{color:#c9a89c}
+.dk1 .pane.b .pd{color:#b8b0a0}
+.dk1 .pane.g{background:var(--paper-2);border:1px solid var(--line)}
+.dk1 .pane.g .pl{color:var(--proof)}
+.dk1 .takeaway{margin-top:auto;background:var(--ink);color:var(--paper);border-radius:5px;padding:22px 28px;
+    font-family:'Fraunces',serif;font-size:24px;font-weight:470;line-height:1.25}
+.dk1 .takeaway b{color:var(--apricot);font-weight:560}
+.dk1 /* TITLE */
+  .title{justify-content:center;background:var(--ink)}
+.dk1 .title::after{opacity:.08}
+.dk1 .title *{color:var(--paper)}
+.dk1 .title .eyebrow{font-family:'Spline Sans Mono';font-size:15px;letter-spacing:.34em;color:#c9a89c;text-transform:uppercase}
+.dk1 .title h1{font-family:'Fraunces',serif;font-size:96px;font-weight:560;line-height:.98;margin-top:24px;letter-spacing:-.02em}
+.dk1 .title .sub{font-size:22px;color:#b8b0a0;margin-top:26px;max-width:740px;line-height:1.4}
+.dk1 .title .foot{margin-top:42px;font-family:'Spline Sans Mono';font-size:14px;letter-spacing:.1em;color:#8a8273}
+.dk1 /* QUESTION / DISCUSSION slides — distinct teal background */
+  .qslide{background:var(--teal);justify-content:flex-start}
+.dk1 .qslide::after{opacity:.07}
+.dk1 .qslide *{color:var(--paper)}
+.dk1 .qslide .kicker{color:var(--teal-soft)}
+.dk1 .qslide .kicker .dot{background:var(--apricot)}
+.dk1 .qslide .kicker .num{color:var(--paper)}
+.dk1 .qslide .rule{background:rgba(243,239,230,.22)}
+.dk1 .qslide .qbody{flex:1;display:flex;flex-direction:column;justify-content:center}
+.dk1 .qslide .qmark{font-family:'Fraunces';font-size:90px;line-height:.8;color:var(--apricot);font-weight:560;margin-bottom:14px}
+.dk1 .qslide h1{font-family:'Fraunces';font-size:48px;font-weight:560;line-height:1.08;max-width:1000px}
+.dk1 .qslide ol{margin:26px 0 0 24px;font-size:19px;line-height:1.7;color:#dfe9e4}
+.dk1 .qslide ol b{color:#fff;font-weight:600}
+.dk1 .qslide .time{margin-top:26px;font-family:'Spline Sans Mono';font-size:14px;letter-spacing:.08em;color:var(--teal-soft)}
+.dk1 /* ORBIT */
+  .two{display:grid;grid-template-columns:1fr 1.05fr;gap:36px;flex:1;align-items:center;margin-top:6px}
+.dk1 .orbit{position:relative;width:440px;height:440px;margin:0 auto}
+.dk1 .ring{position:absolute;border-radius:50%;border:1px dashed var(--line-2);inset:54px}
+.dk1 .ring.r2{inset:4px;border-style:dotted;opacity:.5;animation:spin 90s linear infinite}
+.dk1 .core{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:160px;height:160px;border-radius:50%;
+    background:var(--accent);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+    box-shadow:0 16px 32px -12px rgba(216,68,42,.7)}
+.dk1 .core .l{font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.24em;opacity:.85;margin-bottom:4px}
+.dk1 .core .w{font-family:'Fraunces';font-size:32px;font-weight:560}
+.dk1 .chip{position:absolute;top:50%;left:50%;background:var(--paper);border:1px solid var(--line-2);
+    padding:8px 14px;border-radius:999px;font-size:15px;font-weight:500;white-space:nowrap;box-shadow:0 6px 14px -8px rgba(0,0,0,.4)}
+.dk1 .cN{transform:translate(-50%,-50%) translateY(-188px)}
+.dk1 .cE{transform:translate(-50%,-50%) translateX(150px) translateY(-64px)}
+.dk1 .cS{transform:translate(-50%,-50%) translateX(136px) translateY(88px)}
+.dk1 .cW{transform:translate(-50%,-50%) translateX(-150px) translateY(72px)}
+.dk1 .def{margin-top:18px}
+.dk1 .def .t{font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px}
+.dk1 .def.p .t{color:var(--accent)}
+.dk1 .def .dd{font-family:'Fraunces';font-size:25px;font-weight:430;line-height:1.18}
+.dk1 .stack{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+.dk1 .layer{display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:center;border:1px solid var(--line-2);border-radius:5px;padding:18px 24px}
+.dk1 .layer .verb{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.2em;color:var(--accent)}
+.dk1 .layer .name{font-family:'Fraunces';font-size:26px;font-weight:560;line-height:1}
+.dk1 .layer .what{font-family:'Fraunces';font-size:20px;font-weight:430;line-height:1.2}
+.dk1 .layer .eg{font-size:16px;color:var(--ink-soft);margin-top:6px}
+.dk1 .l1{background:linear-gradient(90deg,rgba(216,68,42,.08),transparent)}
+.dk1 .l1 .name{color:var(--accent)}
+.dk1 .l2{background:linear-gradient(90deg,rgba(176,122,30,.09),transparent)}
+.dk1 .l2 .name{color:var(--exec)}
+.dk1 .l3{background:linear-gradient(90deg,rgba(47,107,94,.09),transparent)}
+.dk1 .l3 .name{color:var(--proof)}
+.dk1 .moves{display:flex;flex-direction:column;gap:0;margin-top:18px}
+.dk1 .move{display:grid;grid-template-columns:50px 1fr;gap:20px;align-items:baseline;padding:14px 0;border-top:1px solid var(--line)}
+.dk1 .move .mvn{font-family:'Fraunces';font-size:30px;font-weight:560;color:var(--accent);line-height:1}
+.dk1 .move .mvt{font-family:'Fraunces';font-size:24px;font-weight:540;line-height:1.08}
+.dk1 .move .mvd{font-size:16px;color:var(--ink-soft);margin-top:4px;line-height:1.3}
+.dk1 .move .mvtag{font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.06em;color:var(--accent);margin-left:10px;white-space:nowrap}
+.dk1 .ucm{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px;flex:1;align-content:center}
+.dk1 .cell{border:1px solid var(--line-2);border-radius:5px;padding:18px 18px;background:#fff}
+.dk1 .cell.w{grid-column:span 2}
+.dk1 .cell .cl{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:7px}
+.dk1 .cell .cv{font-size:17px;line-height:1.3}
+.dk1 .vpc{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px;flex:1;align-items:center}
+.dk1 .vside{border:1px solid var(--line-2);border-radius:8px;padding:26px 28px;min-height:320px;display:flex;flex-direction:column}
+.dk1 .vside.sq{background:var(--paper-2)}
+.dk1 .vside.ci{background:#fff;border-radius:200px 8px 8px 200px}
+.dk1 .vside .vh{font-family:'Fraunces';font-size:24px;font-weight:560;margin-bottom:16px}
+.dk1 .vside.sq .vh{color:var(--accent)}
+.dk1 .vside.ci .vh{color:var(--proof)}
+.dk1 .vside ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.dk1 .vside li{font-size:17px;line-height:1.3;padding-left:18px;position:relative}
+.dk1 .vside li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--ink-soft)}
+.dk1 .vside .lab{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.12em;color:var(--ink-soft);text-transform:uppercase}
+.dk1 .funnel{display:flex;flex-direction:column;gap:8px;margin-top:22px;align-items:center}
+.dk1 .frow{display:flex;align-items:center;gap:22px;width:100%}
+.dk1 .fbar{border-radius:6px;padding:16px 24px;color:#fff;display:flex;justify-content:space-between;align-items:center}
+.dk1 .fbar .fn{font-family:'Fraunces';font-size:22px;font-weight:560}
+.dk1 .fbar .fg{font-size:15px;opacity:.9}
+.dk1 .f1{background:#caa46e;width:100%}
+.dk1 .f2{background:#b07a1e;width:84%}
+.dk1 .f3{background:#9a5a2a;width:64%}
+.dk1 .f4{background:var(--proof);width:46%}
+.dk1 .fch{font-size:15px;color:var(--ink-soft);white-space:nowrap}
+.dk1 .triad{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.dk1 .tri{border:1px solid var(--line-2);border-radius:5px;padding:16px 18px}
+.dk1 .tri .th{font-family:'Fraunces';font-size:20px;font-weight:540}
+.dk1 .tri .td{font-size:15px;color:var(--ink-soft);margin-top:5px;line-height:1.3}
+.dk1 .fly{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:30px;flex-wrap:wrap}
+.dk1 .node{background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:18px 30px;font-family:'Fraunces';font-size:23px;font-weight:540}
+.dk1 .node.k{background:var(--accent);color:#fff;border-color:var(--accent)}
+.dk1 .fly .ar{color:var(--accent);font-size:26px}
+.dk1 .mmap{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:22px}
+.dk1 .mcell{background:var(--paper-2);border:1px solid var(--line);border-radius:5px;padding:14px}
+.dk1 .mcell .ms{font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.dk1 .mcell .mm{font-family:'Fraunces';font-size:18px;font-weight:540;margin-top:6px;line-height:1.1}
+.dk1 .nums{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.dk1 .nt{border:1px solid var(--line-2);border-radius:5px;padding:16px 18px}
+.dk1 .nt .nk{font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.08em;color:var(--accent)}
+.dk1 .nt .nv{font-family:'Fraunces';font-size:19px;font-weight:540;margin-top:6px;line-height:1.15}
+.dk1 .leaks{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:auto;margin-bottom:24px}
+.dk1 .leak{border:1px solid var(--line-2);border-radius:6px;padding:24px 22px;min-height:210px;display:flex;flex-direction:column}
+.dk1 .leak .ln{font-family:'Spline Sans Mono';font-size:12px;color:var(--ink-soft);letter-spacing:.14em}
+.dk1 .leak .lt{font-family:'Fraunces';font-size:26px;font-weight:560;margin-top:10px;line-height:1.05}
+.dk1 .leak .ld{font-size:16px;color:var(--ink-soft);margin-top:10px;line-height:1.35}
+.dk1 .leak .lf{margin-top:auto;font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.1em;color:var(--accent);padding-top:14px}
+.dk1 /* demand demo (create vs capture, .dk1 equal hierarchy with visuals) */
+  .demo{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:14px}
+.dk1 .dcol{border:1px solid var(--line-2);border-radius:8px;padding:18px 22px;display:flex;flex-direction:column;background:#fff}
+.dk1 .dcol .dlabel{font-family:'Spline Sans Mono';font-size:13px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:12px}
+.dk1 .dcol.create .dlabel{color:var(--accent)}
+.dk1 .dcol.capture .dlabel{color:var(--proof)}
+.dk1 .dcol .dimg{display:flex;align-items:center;justify-content:center;background:var(--paper-2);border-radius:6px;overflow:hidden;height:150px;border:1px solid var(--line)}
+.dk1 .dcol.create .dimg img{max-width:74%;max-height:104px;object-fit:contain}
+.dk1 .dcol.capture .dimg img{width:100%;height:100%;object-fit:cover;object-position:top left}
+.dk1 .dcol .dbrand{font-family:'Fraunces';font-size:22px;font-weight:560;margin-top:16px}
+.dk1 .dcol .dtext{font-size:15.5px;color:var(--ink-soft);margin-top:6px;line-height:1.35}
+.dk1 /* JTBD milkshake — 4 components */
+  .jtbd{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+.dk1 .jcard{border:1px solid var(--line-2);border-radius:6px;padding:18px 22px;background:#fff}
+.dk1 .jcard.jcore{background:linear-gradient(120deg,rgba(216,68,42,.10),rgba(216,68,42,0));border-color:rgba(216,68,42,.45)}
+.dk1 .jcard .jl{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:7px}
+.dk1 .jcard.jcore .jl{color:var(--accent)}
+.dk1 .jcard .jv{font-size:17px;line-height:1.3}
+.dk1 .jcard.jcore .jv{font-family:'Fraunces';font-size:20px;font-weight:540;line-height:1.2;color:var(--ink)}
+.dk1 /* Red Bull gallery */
+  .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:24px;flex:1;align-content:center}
+.dk1 .gtile{display:flex;flex-direction:column}
+.dk1 .gtile img{width:100%;height:210px;object-fit:cover;border-radius:6px;border:1px solid var(--line-2);background:var(--paper-2)}
+.dk1 .gtile .gc{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.1em;color:var(--accent);margin-top:11px;text-transform:uppercase}
+.dk1 .gtile .gn{font-family:'Fraunces';font-size:18px;font-weight:540;margin-top:3px;line-height:1.1}
+.dk1 /* embedded video */
+  .vid{display:grid;grid-template-columns:1.45fr 1fr;gap:38px;align-items:center;flex:1;margin-top:6px}
+.dk1 .vid .frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;border:1px solid var(--line-2);box-shadow:0 18px 40px -20px rgba(0,0,0,.5)}
+.dk1 .vid .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.dk1 .vid .vbig{font-family:'Fraunces';font-size:52px;font-weight:560;line-height:1.0}
+.dk1 .vid .vsm{font-size:18px;color:var(--ink-soft);margin-top:16px;line-height:1.4}
+/* ===== Section 2 — Channels & Social (scoped .dk2) ===== */
+.dk2 .slide{position:relative;width:1280px;height:720px;background:var(--paper);
+    overflow:hidden;box-shadow:0 28px 64px -28px rgba(0,0,0,.7);
+    padding:52px 64px;display:flex;flex-direction:column}
+.dk2 .slide::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/></svg>");
+    opacity:.05;mix-blend-mode:multiply}
+.dk2 .slide>*{position:relative;z-index:1}
+.dk2 .kicker{font-family:'Spline Sans Mono',monospace;font-size:12.5px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--ink-soft);display:flex;align-items:center;gap:13px}
+.dk2 .kicker .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.dk2 .kicker .num{margin-left:auto;color:var(--ink)}
+.dk2 .rule{height:1px;background:var(--line);width:100%;margin:14px 0 0}
+.dk2 h1.d{font-family:'Fraunces',serif;font-weight:560;line-height:1.0;letter-spacing:-.015em;font-optical-sizing:auto}
+.dk2 h2.d{font-family:'Fraunces',serif;font-weight:540;line-height:1.05;letter-spacing:-.01em}
+.dk2 .sub2{font-family:'Spline Sans Mono';font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--exec);margin-top:8px}
+.dk2 .lead{font-size:19px;color:var(--ink-soft);line-height:1.4;max-width:980px}
+.dk2 .center{flex:1;display:flex;flex-direction:column;justify-content:center}
+.dk2 .accent{color:var(--accent)}
+.dk2 em.i{color:var(--accent);font-style:italic;font-weight:430}
+.dk2 b.hl{background:var(--proof);color:#fff;padding:0 6px;border-radius:3px;font-weight:600}
+.dk2 .takeaway{margin-top:auto;background:var(--ink);color:var(--paper);border-radius:5px;padding:18px 26px;
+    font-family:'Fraunces',serif;font-size:22px;font-weight:470;line-height:1.25}
+.dk2 .takeaway b{color:var(--apricot);font-weight:560}
+.dk2 /* DIVIDER */
+  .divider{justify-content:center;background:var(--ink)}
+.dk2 .divider::after{opacity:.08}
+.dk2 .divider *{color:var(--paper)}
+.dk2 .divider .eyebrow{font-family:'Spline Sans Mono';font-size:14px;letter-spacing:.32em;color:#c9a89c;text-transform:uppercase}
+.dk2 .divider h1{font-family:'Fraunces',serif;font-size:76px;font-weight:560;line-height:1.0;margin-top:20px;letter-spacing:-.02em}
+.dk2 .divider .dsub{font-size:20px;color:#b8b0a0;margin-top:22px;max-width:760px;line-height:1.4}
+.dk2 .divider .dtag{position:absolute;top:52px;right:64px;z-index:2;font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;color:#8a8273;text-transform:uppercase}
+.dk2 .divider .dbn{font-family:'Spline Sans Mono';font-size:118px;font-weight:600;color:rgba(232,160,140,.16);position:absolute;bottom:20px;right:64px;z-index:1;line-height:.8}
+.dk2 .divider.t{background:var(--teal)}
+.dk2 .divider.t .eyebrow{color:var(--teal-soft)}
+.dk2 .divider.t .dbn{color:rgba(158,199,189,.18)}
+.dk2 /* ACTIVITY (teal) */
+  .qslide{background:var(--teal);justify-content:flex-start}
+.dk2 .qslide::after{opacity:.07}
+.dk2 .qslide *{color:var(--paper)}
+.dk2 .qslide .kicker{color:var(--teal-soft)}
+.dk2 .qslide .kicker .dot{background:var(--apricot)}
+.dk2 .qslide .kicker .num{color:var(--paper)}
+.dk2 .qslide .rule{background:rgba(243,239,230,.22)}
+.dk2 .qslide h2.d{font-family:'Fraunces';font-size:34px;font-weight:560;margin-top:14px}
+.dk2 .qslide .goal{background:rgba(158,199,189,.16);border:1px solid rgba(243,239,230,.22);border-radius:7px;padding:14px 18px;margin-top:14px;font-size:16px;line-height:1.4}
+.dk2 .qslide .goal b{color:var(--apricot)}
+.dk2 .qslide .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-top:14px}
+.dk2 .qslide .steps.c2{grid-template-columns:repeat(2,1fr)}
+.dk2 .qslide .stp{border:1px solid rgba(243,239,230,.28);border-radius:7px;padding:13px 15px}
+.dk2 .qslide .stp .sn{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;color:var(--apricot)}
+.dk2 .qslide .stp .st{font-family:'Fraunces';font-size:17px;font-weight:540;margin-top:5px;color:#fff;line-height:1.12}
+.dk2 .qslide .stp .sd{font-size:13.5px;color:#dfe9e4;margin-top:6px;line-height:1.3}
+.dk2 .qslide .stp ul{list-style:none;margin-top:7px;display:flex;flex-direction:column;gap:4px}
+.dk2 .qslide .stp li{font-size:13px;color:#dfe9e4;padding-left:12px;position:relative;line-height:1.25}
+.dk2 .qslide .stp li::before{content:"›";position:absolute;left:0;color:var(--apricot)}
+.dk2 .qslide .prompt{background:rgba(0,0,0,.26);border:1px solid rgba(243,239,230,.22);border-radius:7px;padding:14px 16px;margin-top:13px;font-family:'Spline Sans Mono';font-size:13px;color:#eaf1ee;line-height:1.5;white-space:pre-wrap}
+.dk2 .qslide .prompt b{color:var(--apricot)}
+.dk2 .qslide .reminder{margin-top:auto;background:rgba(0,0,0,.28);border-radius:6px;padding:13px 18px;font-family:'Fraunces';font-size:18px;color:#fff;font-weight:470;line-height:1.25}
+.dk2 .qslide .reminder b{color:var(--apricot);font-weight:560}
+.dk2 .qslide .time{position:absolute;top:52px;right:64px;font-family:'Spline Sans Mono';font-size:13px;letter-spacing:.06em;color:var(--teal-soft);display:flex;align-items:center;gap:7px}
+.dk2 .qslide .tools{font-family:'Spline Sans Mono';font-size:12px;color:var(--teal-soft);margin-top:8px}
+.dk2 /* images */
+  .logo{width:74px;height:74px;object-fit:contain;border-radius:16px;flex:0 0 auto}
+.dk2 .logo.sm{width:52px;height:52px;border-radius:12px}
+.dk2 .shot{border:1px solid var(--line-2);border-radius:9px;object-fit:cover;box-shadow:0 12px 26px -16px rgba(0,0,0,.45);background:#fff}
+.dk2 .illus{object-fit:contain}
+.dk2 /* lead-in copy with highlighted phrase */
+  .copylead{font-family:'Fraunces';font-size:30px;font-weight:480;line-height:1.18;margin-top:16px}
+.dk2 .copylead .mk{background:var(--proof);color:#fff;padding:0 7px;border-radius:3px}
+.dk2 /* generic bullet list */
+  .blist{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:16px}
+.dk2 .blist li{font-size:19px;line-height:1.35;padding-left:22px;position:relative;color:var(--ink)}
+.dk2 .blist li::before{content:"";position:absolute;left:0;top:11px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.dk2 .blist.star li::before{content:"★";background:none;color:var(--accent);font-size:13px;top:3px;width:auto;height:auto}
+.dk2 /* channels logo grid */
+  .chgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px 12px;margin-top:auto;margin-bottom:auto}
+.dk2 .chcard{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}
+.dk2 .chcard .nm{font-family:'Fraunces';font-size:18px;font-weight:540;line-height:1.1}
+.dk2 .chcard .ds{font-size:13px;color:var(--ink-soft)}
+.dk2 /* channel guide */
+  .guide{display:grid;grid-template-columns:1.05fr 1fr;gap:30px;flex:1;margin-top:14px;align-items:center}
+.dk2 .ghead{display:flex;align-items:center;gap:18px;margin-bottom:18px}
+.dk2 .ghead .gn{font-family:'Fraunces';font-size:46px;font-weight:560;color:var(--accent);line-height:1}
+.dk2 .glist .gl{font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--proof);margin:14px 0 8px}
+.dk2 .glist ul{list-style:none;display:flex;flex-direction:column;gap:7px}
+.dk2 .glist li{font-size:17px;line-height:1.25;padding-left:18px;position:relative}
+.dk2 .glist li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.dk2 .gshots{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:10px;height:450px}
+.dk2 .gshots img{width:100%;height:100%;object-fit:cover;max-width:100%}
+.dk2 /* 4-quadrant post types */
+  .quad{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:16px;flex:1;margin-top:16px}
+.dk2 .qcell{display:grid;grid-template-columns:128px 1fr;gap:18px;align-items:center;border:1px solid var(--line-2);border-radius:8px;padding:14px;background:#fff}
+.dk2 .qcell img{height:150px;width:128px;object-fit:cover;border-radius:6px}
+.dk2 .qcell .ql{font-family:'Fraunces';font-size:24px;font-weight:560;line-height:1.1}
+.dk2 .qcell .qs{font-size:14px;color:var(--ink-soft);margin-top:6px}
+.dk2 /* portraits row */
+  .portraits{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;flex:1;margin-top:18px;align-items:center}
+.dk2 .portraits img{width:100%;height:420px;object-fit:cover;border-radius:9px;border:1px solid var(--line-2)}
+.dk2 /* AI influencer cards */
+  .aicards{display:grid;grid-template-columns:1fr 1fr;gap:26px;flex:1;margin-top:16px;align-items:center}
+.dk2 .aicard{display:grid;grid-template-columns:200px 1fr;gap:22px;align-items:center;border:1px solid var(--line-2);border-radius:9px;padding:22px;background:#fff}
+.dk2 .aicard img{width:200px;height:230px;object-fit:cover;border-radius:8px}
+.dk2 .aicard .hd{font-family:'Fraunces';font-size:26px;font-weight:560;display:flex;align-items:center;gap:8px}
+.dk2 .aicard .vb{color:#3897f0;font-size:18px}
+.dk2 .aicard .nm{font-size:15px;color:var(--ink-soft);margin-top:4px}
+.dk2 .aicard .stats{display:flex;gap:18px;margin-top:16px}
+.dk2 .aicard .stats div{font-size:14px}
+.dk2 .aicard .stats b{font-family:'Fraunces';font-size:18px;font-weight:600;display:block}
+.dk2 /* three-column info cards (with optional icon image) */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.dk2 .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:18px}
+.dk2 .auto{flex:1;align-content:center}
+.dk2 .gcard{border:1px solid var(--line-2);border-radius:8px;padding:20px 22px;background:#fff;display:flex;flex-direction:column}
+.dk2 .gcard .gh{font-family:'Fraunces';font-size:21px;font-weight:560;line-height:1.1;color:var(--proof)}
+.dk2 .gcard ul{list-style:none;display:flex;flex-direction:column;gap:9px;margin-top:13px}
+.dk2 .gcard li{font-size:15px;line-height:1.3;color:var(--ink-soft);padding-left:16px;position:relative}
+.dk2 .gcard li::before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.dk2 .gcard li b{color:var(--ink);font-weight:600}
+.dk2 /* two-pane */
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:auto;margin-bottom:auto}
+.dk2 .pane{border-radius:7px;padding:26px 28px;min-height:280px;display:flex;flex-direction:column}
+.dk2 .pane .pl{font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:14px}
+.dk2 .pane .ph{font-family:'Fraunces';font-size:26px;font-weight:540;line-height:1.08}
+.dk2 .pane .pd{font-size:16px;margin-top:12px;line-height:1.4;color:var(--ink-soft)}
+.dk2 .pane ul{list-style:none;display:flex;flex-direction:column;gap:11px;margin-top:4px}
+.dk2 .pane li{font-size:16.5px;line-height:1.3;padding-left:18px;position:relative;color:var(--ink-soft)}
+.dk2 .pane li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.dk2 .pane.a{background:#fff;border:1px solid rgba(216,68,42,.4)}
+.dk2 .pane.a .pl{color:var(--accent)}
+.dk2 .pane.b{background:var(--ink);color:var(--paper)}
+.dk2 .pane.b .pl{color:#c9a89c}
+.dk2 .pane.b .pd{color:#b8b0a0}
+.dk2 .pane.b li{color:#b8b0a0}
+.dk2 .pane.b li::before{background:var(--apricot)}
+.dk2 .pane.g{background:var(--paper-2);border:1px solid var(--line)}
+.dk2 .pane.g .pl{color:var(--proof)}
+.dk2 /* readiness checklist */
+  .checks{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:18px;flex:1}
+.dk2 .chk{border:1px solid var(--line-2);border-radius:8px;padding:18px 20px;background:#fff;display:flex;flex-direction:column}
+.dk2 .chk .ct{font-family:'Fraunces';font-size:19px;font-weight:560;line-height:1.08;color:var(--proof)}
+.dk2 .chk ul{list-style:none;display:flex;flex-direction:column;gap:7px;margin-top:11px}
+.dk2 .chk li{font-size:13.5px;line-height:1.3;color:var(--ink-soft);padding-left:15px;position:relative}
+.dk2 .chk li::before{content:"?";position:absolute;left:0;top:-1px;color:var(--accent);font-weight:700;font-size:13px}
+.dk2 /* table */
+  .tbl{display:flex;flex-direction:column;margin-top:18px;border:1px solid var(--line-2);border-radius:8px;overflow:hidden;flex:1}
+.dk2 .tbl .tr{display:grid;grid-template-columns:.8fr 1.5fr;flex:1}
+.dk2 .tbl .tr>div{padding:0 22px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;justify-content:center}
+.dk2 .tbl .tr:last-child>div{border-bottom:0}
+.dk2 .tbl .tr>div:first-child{border-right:1px solid var(--line)}
+.dk2 .tbl .thr>div{background:var(--ink);color:var(--paper);font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;flex:0 0 auto;padding-top:12px;padding-bottom:12px}
+.dk2 .tbl .tk{font-family:'Fraunces';font-weight:540;font-size:19px;color:var(--accent)}
+.dk2 .tbl .tv{color:var(--ink-soft);font-size:15.5px;line-height:1.3}
+.dk2 /* platform-audience table (logo + descriptor + bullets) */
+  .ptbl{display:flex;flex-direction:column;border:1px solid var(--line-2);border-radius:8px;overflow:hidden;margin-top:16px;flex:1}
+.dk2 .prow{display:grid;grid-template-columns:96px 1.1fr 1.6fr;align-items:center;border-bottom:1px solid var(--line);flex:1}
+.dk2 .prow:last-child{border-bottom:0}
+.dk2 .prow .pc{display:flex;align-items:center;justify-content:center;padding:8px;height:100%;background:var(--paper-2)}
+.dk2 .prow .pc img{width:48px;height:48px;object-fit:contain;border-radius:10px}
+.dk2 .prow .pd2{font-family:'Fraunces';font-size:18px;font-weight:540;color:var(--proof);padding:0 18px}
+.dk2 .prow .pb{padding:8px 18px}
+.dk2 .prow .pb ul{list-style:none;display:flex;flex-direction:column;gap:3px}
+.dk2 .prow .pb li{font-size:14px;color:var(--ink-soft);padding-left:16px;position:relative;line-height:1.25}
+.dk2 .prow .pb li::before{content:"→";position:absolute;left:0;color:var(--accent);font-size:12px}
+.dk2 .prow.lab{grid-template-columns:96px 1fr}
+.dk2 .prow.lab .pc{background:var(--proof)}
+.dk2 .prow.lab .pc .pcl{font-family:'Fraunces';font-size:15px;font-weight:600;color:#fff;text-align:center}
+.dk2 /* 3-column comparison */
+  .cmp3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px;flex:1}
+.dk2 .cmpcol{border:1px solid var(--line-2);border-radius:8px;background:#fff;display:flex;flex-direction:column;overflow:hidden}
+.dk2 .cmpcol .chd{padding:11px 18px;color:#fff;font-family:'Fraunces';font-size:18px;font-weight:560;text-align:center;letter-spacing:.02em}
+.dk2 .cmpcol.c1 .chd{background:var(--proof)}
+.dk2 .cmpcol.c2 .chd{background:var(--exec)}
+.dk2 .cmpcol.c3 .chd{background:#2d3142}
+.dk2 .cmpbody{padding:16px 20px;display:flex;flex-direction:column;gap:13px}
+.dk2 .cseg .sl{font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px;display:flex;align-items:center;gap:6px}
+.dk2 .cseg .sl.ok{color:var(--proof)}
+.dk2 .cseg .sl.warn{color:var(--accent)}
+.dk2 .cseg ul{list-style:none;display:flex;flex-direction:column;gap:5px}
+.dk2 .cseg li{font-size:13.5px;line-height:1.28;color:var(--ink-soft);padding-left:14px;position:relative}
+.dk2 .cseg li::before{content:"";position:absolute;left:0;top:7px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.dk2 .cseg .q{font-style:italic;font-size:13px;color:var(--ink);font-family:'Fraunces'}
+.dk2 .golden{margin-top:auto;padding:14px 18px;background:var(--paper-2);border-top:1px solid var(--line)}
+.dk2 .golden .gt{font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--exec)}
+.dk2 .golden .gv{font-family:'Fraunces';font-size:17px;font-weight:560;margin-top:4px}
+.dk2 .cseg .pp{font-family:'Fraunces';font-size:17px;font-weight:560;color:var(--ink)}
+.dk2 /* numbered flow / moves */
+  .moves{display:flex;flex-direction:column;gap:0;margin-top:14px}
+.dk2 .move{display:grid;grid-template-columns:48px 1fr;gap:18px;align-items:baseline;padding:12px 0;border-top:1px solid var(--line)}
+.dk2 .move .mvn{font-family:'Fraunces';font-size:28px;font-weight:560;color:var(--accent);line-height:1}
+.dk2 .move .mvt{font-family:'Fraunces';font-size:22px;font-weight:540;line-height:1.08}
+.dk2 .move .mvd{font-size:15px;color:var(--ink-soft);margin-top:3px;line-height:1.3}
+.dk2 /* vertical ecosystem flow */
+  .vflow{display:flex;flex-direction:column;gap:8px;margin-top:18px;flex:1;justify-content:center}
+.dk2 .vstep{display:flex;align-items:center;gap:18px;border:1px solid var(--line-2);border-left:5px solid var(--proof);border-radius:7px;padding:16px 24px;background:#fff}
+.dk2 .vstep .vn{font-family:'Fraunces';font-size:22px;font-weight:560;width:300px}
+.dk2 .vstep .vd{font-size:16px;color:var(--ink-soft)}
+.dk2 .varrow{text-align:center;color:var(--exec);font-size:18px;line-height:.4}
+.dk2 /* case study */
+  .case{display:grid;gap:24px;flex:1;margin-top:14px;align-items:stretch}
+.dk2 .case.c1{grid-template-columns:.8fr 1.5fr}
+.dk2 .case.c2{grid-template-columns:.85fr 1.25fr .75fr}
+.dk2 .cmeta{background:var(--ink);color:var(--paper);border-radius:8px;padding:22px 24px;display:flex;flex-direction:column;gap:14px}
+.dk2 .cmeta .ml{font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#c9a89c;margin-bottom:4px}
+.dk2 .cmeta .mv{font-family:'Fraunces';font-size:22px;font-weight:540;line-height:1.05}
+.dk2 .cmeta .chip{display:inline-block;background:rgba(232,160,140,.18);border:1px solid rgba(232,160,140,.5);color:var(--apricot);border-radius:999px;padding:4px 12px;font-size:14px;font-family:'Fraunces';font-weight:540}
+.dk2 .cmeta .blk .bl{font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--apricot);margin-bottom:4px}
+.dk2 .cmeta .blk .bt{font-size:14px;color:#cfc8ba;line-height:1.35}
+.dk2 .cmeta .blk .bt.q{font-family:'Fraunces';font-style:italic;font-size:17px;color:#fff;line-height:1.2}
+.dk2 .squad{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;align-content:start}
+.dk2 .sqc{border:1px solid var(--line-2);border-radius:8px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.dk2 .sqc img{width:100%;height:150px;object-fit:cover}
+.dk2 .sqc .sqi{padding:9px 12px}
+.dk2 .sqc .sqn{font-family:'Fraunces';font-size:15px;font-weight:560;line-height:1.05}
+.dk2 .sqc .sqt{font-family:'Spline Sans Mono';font-size:8.5px;letter-spacing:.1em;color:var(--proof);text-transform:uppercase;margin:3px 0}
+.dk2 .sqc .sqd{font-size:11.5px;color:var(--ink-soft);line-height:1.25}
+.dk2 .seedbox{display:flex;flex-direction:column}
+.dk2 .seedbox img{width:100%;border-radius:8px;border:1px solid var(--line-2);max-height:300px;object-fit:contain;background:#fff}
+.dk2 .seedlist{margin-top:12px}
+.dk2 .seedlist .sh{background:var(--proof);color:#fff;font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:7px 12px;border-radius:5px 5px 0 0;text-align:center}
+.dk2 .seedlist .si{border:1px solid var(--line);border-top:0;border-radius:0 0 5px 5px;padding:12px 16px;display:grid;grid-template-columns:1fr 1fr;gap:6px 16px}
+.dk2 .seedlist .si span{font-size:13px;color:var(--ink-soft);padding-left:16px;position:relative}
+.dk2 .seedlist .si span::before{content:"✓";position:absolute;left:0;color:var(--proof)}
+.dk2 .impact{display:flex;flex-direction:column;gap:14px}
+.dk2 .impbox{border:1px solid var(--line-2);border-radius:8px;padding:20px;background:#fff;flex:1;display:flex;flex-direction:column;justify-content:center}
+.dk2 .impbox .iv{font-family:'Fraunces';font-size:44px;font-weight:600;color:var(--accent);line-height:1}
+.dk2 .impbox .il{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-top:8px}
+.dk2 .impbox .id{font-family:'Fraunces';font-size:19px;font-weight:560}
+.dk2 .impbox .idd{font-size:14px;color:var(--ink-soft);margin-top:5px}
+.dk2 /* critical-insight side box */
+  .split{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;flex:1;margin-top:14px;align-items:center}
+.dk2 .auditcard{border:1px solid var(--line-2);border-radius:8px;padding:14px 18px;background:#fff;margin-bottom:10px;font-size:17px;display:flex;align-items:center;gap:12px}
+.dk2 .auditcard:last-child{margin-bottom:0}
+.dk2 .insight{background:#fbf3e3;border:1px solid var(--exec);border-radius:8px;padding:26px}
+.dk2 .insight .il{font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--exec);margin-bottom:16px}
+.dk2 .insight .iq{font-family:'Fraunces';font-size:24px;font-weight:540;line-height:1.2;font-style:italic}
+.dk2 .insight .if{margin-top:18px;font-family:'Spline Sans Mono';font-size:13px;color:var(--accent)}
+.dk2 /* bad/better/best ladder */
+  .ladder{display:flex;flex-direction:column;gap:12px}
+.dk2 .rung{border:1px solid var(--line-2);border-left:5px solid;border-radius:7px;padding:14px 20px;background:#fff}
+.dk2 .rung.bad{border-left-color:var(--accent)}
+.dk2 .rung.better{border-left-color:var(--exec)}
+.dk2 .rung.best{border-left-color:var(--proof)}
+.dk2 .rung .rl{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.dk2 .rung.bad .rl{color:var(--accent)}
+.dk2 .rung.better .rl{color:var(--exec)}
+.dk2 .rung.best .rl{color:var(--proof)}
+.dk2 .rung .rt{font-family:'Fraunces';font-size:19px;font-weight:540;margin-top:5px;line-height:1.15}
+.dk2 /* AIGC three-col */
+  .io{border:1px solid var(--line-2);border-radius:8px;background:#fff;overflow:hidden}
+.dk2 .io .iohd{display:flex;align-items:center;gap:8px;padding:11px 18px;font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.dk2 .io .input{background:var(--paper-2)}
+.dk2 .io .input .iohd{color:var(--ink-soft)}
+.dk2 .iogrid{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;padding:14px 18px}
+.dk2 .iogrid span{font-size:14px;color:var(--ink-soft);padding-left:16px;position:relative}
+.dk2 .iogrid span::before{content:"";position:absolute;left:0;top:7px;width:6px;height:6px;border-radius:50%;background:var(--exec)}
+.dk2 .ooutput{background:var(--proof);color:#fff;border-radius:8px;padding:16px 18px;margin-top:10px}
+.dk2 .ooutput .ol{font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#bfe0d7;margin-bottom:8px}
+.dk2 .ooutput .ob{font-family:'Fraunces';font-size:18px;font-weight:560}
+.dk2 .ooutput .od{font-size:14px;color:#dcefe9;margin-top:5px;line-height:1.35}
+.dk2 /* repurpose chain */
+  .chain{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-top:14px}
+.dk2 .chain .cn{background:#fff;border:1px solid var(--line-2);border-radius:6px;padding:10px 14px;font-size:14.5px;font-weight:500}
+.dk2 .chain .cn.k{background:var(--accent);color:#fff;border-color:var(--accent);font-family:'Fraunces';font-weight:540}
+.dk2 .chain .ca{color:var(--accent);font-size:16px}
+.dk2 .aibar{margin-top:18px;background:var(--proof);color:#fff;border-radius:8px;padding:18px 22px;display:flex;align-items:center;gap:24px}
+.dk2 .aibar img{width:80px;height:80px;object-fit:contain}
+.dk2 .aibar .at{font-family:'Fraunces';font-size:22px;font-weight:560;margin-bottom:6px}
+.dk2 .aibar ul{list-style:none;display:flex;gap:24px;flex-wrap:wrap}
+.dk2 .aibar li{font-size:16px;padding-left:16px;position:relative}
+.dk2 .aibar li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:var(--apricot)}
+.dk2 /* email anatomy */
+  .anat{display:grid;grid-template-columns:1fr 300px 1fr;gap:24px;flex:1;margin-top:14px;align-items:center}
+.dk2 .anat .col{display:flex;flex-direction:column;gap:22px}
+.dk2 .anat .col.r{text-align:left}
+.dk2 .anat .lblk .lt{font-family:'Fraunces';font-size:22px;font-weight:560;color:var(--accent)}
+.dk2 .anat .lblk .ld{font-size:15px;color:var(--ink-soft);margin-top:5px;line-height:1.35}
+.dk2 .anat .mock{display:flex;justify-content:center}
+.dk2 .anat .mock img{height:480px;width:auto;border:1px solid var(--line-2);border-radius:8px;box-shadow:0 14px 30px -18px rgba(0,0,0,.5)}
+.dk2 /* email examples */
+  .emails{display:flex;gap:22px;justify-content:center;flex:1;margin-top:18px;align-items:center}
+.dk2 .emails img{height:520px;width:auto;border:1px solid var(--line-2);border-radius:8px;box-shadow:0 14px 30px -18px rgba(0,0,0,.45)}
+.dk2 /* why-email split with journey image */
+  .jrow{display:grid;grid-template-columns:1fr 1fr;gap:30px;flex:1;margin-top:14px;align-items:center}
+.dk2 .jrow .jimg img{width:100%;border:1px solid var(--line-2);border-radius:8px;background:#fff}
+.dk2 .tealbox{background:var(--proof);color:#fff;border-radius:8px;padding:18px 22px;margin-top:18px;font-size:17px;line-height:1.4}
+.dk2 /* trigger grid */
+  .triggers{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:16px}
+.dk2 .trig{border:1px solid var(--line-2);border-radius:8px;padding:18px 20px;background:#fff}
+.dk2 .trig .tl{font-family:'Spline Sans Mono';font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.dk2 .trig .tt{font-family:'Fraunces';font-size:19px;font-weight:540;margin-top:6px}
+.dk2 /* lifecycle stages */
+  .stages{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}
+.dk2 .stage{border:1px solid var(--line-2);border-left:5px solid var(--proof);border-radius:7px;padding:16px 20px;background:#fff}
+.dk2 .stage .sn{font-family:'Fraunces';font-size:21px;font-weight:560}
+.dk2 .stage .sd{font-size:15px;color:var(--ink-soft);margin-top:5px;line-height:1.3}
+.dk2 /* formula */
+  .formula{display:flex;align-items:stretch;justify-content:center;gap:14px;margin-top:24px;flex-wrap:wrap}
+.dk2 .fterm{background:#fff;border:1px solid var(--line-2);border-top:4px solid var(--proof);border-radius:8px;padding:20px 24px;min-width:220px;text-align:center}
+.dk2 .fterm.k{background:var(--paper-2);border-top-color:var(--exec)}
+.dk2 .fterm .fv{font-family:'Fraunces';font-size:24px;font-weight:560;line-height:1.05}
+.dk2 .fterm .fq{font-size:13px;color:var(--ink-soft);margin-top:6px;font-style:italic}
+.dk2 .fop{font-family:'Fraunces';font-size:38px;color:var(--accent);font-weight:560;display:flex;align-items:center}
+@media print{body{background:#fff;gap:0;padding:0}.dk1 .slide,.dk2 .slide{box-shadow:none;page-break-after:always;margin:0}.dk1 .ring.r2{animation:none}}
+</style>
+</head>
+<body>
+<div class="dk1">
+<section class="slide title">
+  <div class="eyebrow">SMU · A Practical Course</div>
+  <h1 class="d">Marketing in the AI Era<br>for Business Owners</h1>
+  <div class="sub">How marketing actually works for a small business. The whole picture, in six short modules.</div>
+  <div class="foot">Novastacks AI</div>
+</section>
+<section class="slide qslide">
+  <div class="kicker"><span class="dot"></span> Module 0 — Hook <span class="num">01</span></div>
+  <div class="rule"></div>
+  <div class="qbody">
+    <div class="qmark">Q.</div>
+    <h1 class="d">In one word — what is marketing?</h1>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 0 — What Marketing Actually Is <span class="num">02</span></div>
+  <div class="rule"></div>
+  <h1 class="d" style="font-size:56px;margin-top:18px">Marketing = create <em class="i">demand</em>,<br>then capture it.</h1>
+  <div class="lead" style="margin-top:16px">Getting the right people to choose you, again and again, at a profit. Most owners think marketing means ads or posting. It is bigger than that.</div>
+  <div class="flow c5">
+    <div class="step"><div class="lab">WHO FOR</div><div class="big">Who is it for?</div><div class="band b1"></div></div>
+    <div class="step"><div class="lab">WHY YOU</div><div class="big">Why you?</div><div class="band b1"></div></div>
+    <div class="step"><div class="lab">THE OFFER</div><div class="big">What, at what price?</div><div class="band b1"></div></div>
+    <div class="step"><div class="lab">DEMAND</div><div class="big">How do they find you?</div><div class="band b2"></div></div>
+    <div class="step"><div class="lab">PROOF</div><div class="big">Did it work?</div><div class="band b3"></div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 0 — Example <span class="num">03</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:40px;margin-top:14px">Create demand. And capture demand.</h2>
+  <div class="demo">
+    <div class="dcol create">
+      <div class="dlabel">◆ Create demand</div>
+      <a class="dimg" href="https://www.instagram.com/reel/DYAOQBoN0q2/" target="_blank" rel="noopener" title="Watch the Red Bull reel on Instagram"><img src="_assets/redbull-logo.png" alt="Red Bull logo"></a>
+      <div class="dbrand">Red Bull <a href="https://www.instagram.com/reel/DYAOQBoN0q2/" target="_blank" rel="noopener" style="font-size:14px;font-weight:600;color:var(--accent);text-decoration:none">▶ Watch reel</a></div>
+      <div class="dtext">Makes events, stunts, and videos people seek out. You weren't looking for an energy drink. They made you want one.</div>
+    </div>
+    <div class="dcol capture">
+      <div class="dlabel">● Capture demand</div>
+      <div class="dimg"><img src="_assets/google-search.jpg" alt="Google search results for buy running shoes"></div>
+      <div class="dbrand">Google Search</div>
+      <div class="dtext">Shows up the moment you search "buy running shoes." It captures demand that already exists. It can't create new demand.</div>
+    </div>
+  </div>
+  <div class="takeaway">Most small businesses <b>only capture</b> demand, then wonder why growth stalls.</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 0 — Red Bull In The Wild <span class="num">04</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:38px;margin-top:12px">Red Bull sells cans by making <em class="i">media</em>.</h2>
+  <div class="gallery">
+    <div class="gtile"><img src="_assets/redbull-f1.jpg" alt="Red Bull Racing F1 car"><div class="gc">Sponsorship</div><div class="gn">A Formula 1 team</div></div>
+    <div class="gtile"><img src="_assets/redbull-stratos.jpg" alt="Red Bull Stratos balloon ascent"><div class="gc">Stunt</div><div class="gn">The Stratos space jump</div></div>
+    <div class="gtile"><img src="_assets/redbull-airrace.jpg" alt="Red Bull Air Race plane"><div class="gc">Owned event</div><div class="gn">The Air Race series</div></div>
+    <div class="gtile"><img src="_assets/redbull-cans.jpg" alt="Red Bull cans"><div class="gc">The product</div><div class="gn">What it's all selling</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 1 — Jobs To Be Done <span class="num">05</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:36px;margin-top:12px">What is a <em class="i">"Job to be Done"</em>?</h2>
+  <div class="lead" style="margin-top:10px">Customers don't really want your product. They "hire" it to make progress on something in their life. That progress is the job — and marketing's role is to connect what you sell to it.</div>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;margin:8px 0">
+    <img src="_assets/jtbd-role-of-marketing.jpeg" alt="The role of marketing — connecting Product to Customer through their Jobs to be Done" style="max-height:330px;width:auto;border:1px solid var(--line-2);border-radius:8px;background:#fff;padding:14px 18px">
+  </div>
+  <div class="takeaway">Market the <b>features</b> and you compete on specs. Market the <b>job</b> and you understand why they choose you.</div>
+</section>
+<section class="slide" style="padding:40px 48px">
+  <div class="kicker"><span class="dot"></span> Module 1 — The JTBD Framework <span class="num">06</span></div>
+  <div class="rule"></div>
+  <a href="https://miro.com/templates/jobs-to-be-done-jtbd-for-product-managers/" target="_blank" rel="noopener" title="Open the Jobs-to-be-Done template in Miro" style="flex:1;display:flex;align-items:center;justify-content:center;margin-top:14px">
+    <img src="_assets/jtbd-framework-miro.jpg" alt="Defining Main Job to Be Done (JTBD) — Miro framework template" style="width:100%;height:auto;max-height:100%;object-fit:contain;border:1px solid var(--line-2);border-radius:8px;box-shadow:0 14px 30px -18px rgba(0,0,0,.5)">
+  </a>
+  <div style="margin-top:10px;font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.03em;color:var(--ink-soft)">Source: Miro — <a href="https://miro.com/templates/jobs-to-be-done-jtbd-for-product-managers/" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">Open the JTBD for Product Managers template ↗</a></div>
+</section>
+<section class="slide" style="padding:40px 48px">
+  <div class="kicker"><span class="dot"></span> Module 1 — The Use Case Map <span class="num">07</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:30px;margin-top:10px">Reforge Use Case Map</h2>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;margin-top:6px">
+    <img src="_assets/reforge-usecase-map.jpg" alt="Reforge Use Case Map — Problem, Persona, Alternatives, Frequency, Why" style="max-height:430px;width:auto;border:1px solid var(--line-2);border-radius:8px;box-shadow:0 14px 30px -18px rgba(0,0,0,.5)">
+  </div>
+  <div style="margin-top:8px;font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.03em;color:var(--ink-soft)">Five questions that turn "a job to be done" into a usable map. Source: Reforge.</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 1 — Customer & Market <span class="num">08</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:38px;margin-top:12px">People don't buy products. They <em class="i">hire</em> them for a job.</h2>
+  <div class="lead" style="margin-top:14px">This is the "Jobs to be Done" idea. A customer hires your product to make progress on something in their life, and drops it the moment something does the job better. The job is rarely only practical.</div>
+  <div class="triad" style="margin-top:26px">
+    <div class="tri"><div class="th">Functional</div><div class="td">The practical task. A drill that makes a clean hole.</div></div>
+    <div class="tri"><div class="th">Emotional</div><div class="td">How they want to feel. Safe, confident, less stressed.</div></div>
+    <div class="tri"><div class="th">Social</div><div class="td">How they want to be seen. Capable, in the know.</div></div>
+  </div>
+  <div class="lead" style="margin-top:24px;font-size:18px">Know the job, and you know what you're really competing against.</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 1 — Jobs To Be Done · The Milkshake <span class="num">09</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:34px;margin-top:10px">McDonald's asked: what job is a milkshake <em class="i">hired</em> for?</h2>
+  <div class="jtbd">
+    <div class="jcard"><div class="jl">Context</div><div class="jv">A long, boring morning drive. Alone in the car, with only one hand free.</div></div>
+    <div class="jcard jcore"><div class="jl">The job</div><div class="jv">"Give me something filling that makes the commute less boring."</div></div>
+    <div class="jcard"><div class="jl">Struggles</div><div class="jv">Bagels are dry and crumbly. Bananas are gone in a minute. Coffee doesn't fill you up.</div></div>
+    <div class="jcard"><div class="jl">Desired outcome</div><div class="jv">Stay full and occupied the whole drive, with one hand and no mess.</div></div>
+  </div>
+  <div class="lead" style="margin-top:18px;font-size:17px">So the milkshake wins: thick enough to last, drinkable one-handed, filling. Its real rivals are bananas and bagels, not other milkshakes.</div>
+</section>
+<section class="slide qslide">
+  <div class="kicker"><span class="dot"></span> Your Turn — Discuss <span class="num">10</span></div>
+  <div class="rule"></div>
+  <div class="qbody">
+    <div class="qmark">Q.</div>
+    <h1 class="d">What job is your customer really hiring you to do?</h1>
+    <ol>
+      <li>Write the <b>problem in your customer's own words</b>.</li>
+      <li>List the <b>alternatives</b>, often a spreadsheet, a rival, or doing nothing.</li>
+    </ol>
+    <div class="time">6 min on your own · 3 min with a partner</div>
+  </div>
+</section>
+<!-- TRANSITION → Module 2 -->
+<section class="slide" style="background:var(--ink);justify-content:center">
+  <div style="position:absolute;top:52px;right:64px;font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;color:#8a8273;text-transform:uppercase">Marketing in the AI Era</div>
+  <div style="font-family:'Spline Sans Mono';font-size:14px;letter-spacing:.32em;color:#c9a89c;text-transform:uppercase">Module 2</div>
+  <h1 class="d" style="font-size:80px;font-weight:560;color:var(--paper);line-height:1;margin-top:18px;letter-spacing:-.02em">Positioning &amp; Brand</h1>
+  <div style="font-size:21px;color:#b8b0a0;margin-top:24px;max-width:840px;line-height:1.45">You know <em style="color:var(--apricot);font-style:italic">who</em> it's for and the job they hire you for. Now: what do you <em style="color:var(--apricot);font-style:italic">stand for</em> — and how do you make them choose you, again and again?</div>
+  <div style="font-family:'Spline Sans Mono';font-size:120px;font-weight:600;color:rgba(232,160,140,.15);position:absolute;bottom:18px;right:64px;line-height:.8">02</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 2 — Positioning & Brand <span class="num">11</span></div>
+  <div class="rule"></div>
+  <div class="two">
+    <div>
+      <h1 class="d" style="font-size:68px">Position <span class="accent" style="font-style:italic;font-weight:400">≠</span> Brand</h1>
+      <div class="def p"><div class="t">Position</div><div class="dd">The one idea you own in a mind.</div></div>
+      <div class="def"><div class="t">Brand</div><div class="dd">Everything that gathers around it.</div></div>
+    </div>
+    <div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:6px">
+        <img src="_assets/volvo-logo.png" alt="Volvo" style="height:26px;width:auto">
+        <span style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft)">the worked example</span>
+      </div>
+      <div class="orbit">
+        <div class="ring r2"></div><div class="ring"></div>
+        <div class="core"><div class="l">POSITION</div><div class="w">Safety</div></div>
+        <div class="chip cN">Swedish engineering</div>
+        <div class="chip cE">Built to last</div>
+        <div class="chip cS">Family-first</div>
+        <div class="chip cW">Practical premium</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 2 — The Principle <span class="num">12</span></div>
+  <div class="rule"></div>
+  <div class="center">
+    <h1 class="d" style="font-size:64px">Positioning is <em class="i">earned</em>,<br>not announced.</h1>
+    <div class="lead" style="margin-top:24px;font-size:21px"><b>Volvo</b> didn't say "we're safe." In 1959 it invented the three-point seatbelt and gave the patent away free to every carmaker. It proved the position with a decision instead of claiming it.</div>
+  </div>
+  <div class="takeaway">Claims invite doubt. <b>Proof lets people convince themselves.</b></div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 2 — Cautionary Case <span class="num">13</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:42px;margin-top:14px">You can't say your way out of what you are.</h2>
+  <div class="duo" style="margin-top:28px">
+    <div class="pane a"><div class="pl">◆ The claim</div><div class="ph" style="font-style:italic;font-weight:450">"This is not your father's Oldsmobile."</div><div class="pd">GM, 1988.</div></div>
+    <div class="pane b"><div class="pl">● The reality</div><div class="ph">Same cars. Same showroom.</div><div class="pd">Nothing changed but the words. The brand was already shrinking, and it was dissolved in 2004.</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 2 — How A Brand Gets Built <span class="num">14</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:34px;margin-top:12px">Once you've chosen your position, you build the brand in three layers.</h2>
+  <div class="lead" style="margin-top:10px">Decide what you stand for, tell it as a story, then prove it through what you do. Each layer feeds the one below it.</div>
+  <div class="stack" style="margin-top:16px">
+    <div class="layer l1" style="padding:14px 24px"><div><div class="verb">DECIDE</div><div class="name">Strategy</div></div><div><div class="what" style="font-size:18px">The one thing you stand for.</div><div class="eg" style="margin-top:5px"><b style="color:var(--ink)">Nike:</b> victory for every body.</div><div class="eg" style="margin-top:3px"><b style="color:var(--ink)">Lululemon:</b> gear for the "sweatlife."</div><div class="eg" style="margin-top:3px"><b style="color:var(--accent)">Love, Bonito:</b> fashion designed for the Asian woman's body.</div></div></div>
+    <div class="layer l2" style="padding:14px 24px"><div><div class="verb">EXPRESS</div><div class="name">Narrative</div></div><div><div class="what" style="font-size:18px">The story, with the customer as hero and you as the guide.</div><div class="eg" style="margin-top:5px"><b style="color:var(--ink)">Nike:</b> you vs your limits — "Just Do It."</div><div class="eg" style="margin-top:3px"><b style="color:var(--ink)">Lululemon:</b> your best self in motion; they're the coach &amp; community.</div><div class="eg" style="margin-top:3px"><b style="color:var(--accent)">Love, Bonito:</b> the modern Asian woman, finally dressed for her real body &amp; life.</div></div></div>
+    <div class="layer l3" style="padding:14px 24px"><div><div class="verb">PROVE</div><div class="name">Marketing</div></div><div><div class="what" style="font-size:18px">The acts that broadcast it, year after year.</div><div class="eg" style="margin-top:5px"><b style="color:var(--ink)">Nike:</b> athlete films, the swoosh everywhere.</div><div class="eg" style="margin-top:3px"><b style="color:var(--ink)">Lululemon:</b> free in-store yoga, local ambassadors, run clubs.</div><div class="eg" style="margin-top:3px"><b style="color:var(--accent)">Love, Bonito:</b> blogshop → stores across SEA, real-customer fit, community.</div></div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 2 — What A Brand Marketer Does <span class="num">15</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:36px;margin-top:10px">Built it — now you <em class="i">grow</em> it with four moves.</h2>
+  <div class="lead" style="margin-top:8px">The last slide was how you <b>build</b> a brand. This is what you <b>repeat</b> to grow it — the bottom "prove it" layer, turned into a daily job. <span style="color:var(--ink-soft)">(Byron Sharp, <i>How Brands Grow</i>.)</span></div>
+  <div class="moves">
+    <div class="move"><div class="mvn">1</div><div><div class="mvt">Own the position you chose — keep proving it.<span class="mvtag">POSITIONING</span></div><div class="mvd">The Strategy layer from the last slide, now defended through visible decisions.</div></div></div>
+    <div class="move"><div class="mvn">2</div><div><div class="mvt">Be impossible to forget.<span class="mvtag">DISTINCTIVE ASSETS</span></div><div class="mvd">Same look, name, and message everywhere, for years.</div></div></div>
+    <div class="move"><div class="mvn">3</div><div><div class="mvt">Show up at the buying moment.<span class="mvtag">MENTAL AVAILABILITY</span></div><div class="mvd">Be the brand people think of first when the need hits.</div></div></div>
+    <div class="move"><div class="mvn">4</div><div><div class="mvt">Be easy to find and buy.<span class="mvtag">PHYSICAL AVAILABILITY</span></div><div class="mvd">Reach your whole market, including people who barely know you.</div></div></div>
+  </div>
+</section>
+<!-- TRANSITION → Module 3 -->
+<section class="slide" style="background:var(--ink);justify-content:center">
+  <div style="position:absolute;top:52px;right:64px;font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;color:#8a8273;text-transform:uppercase">Marketing in the AI Era</div>
+  <div style="font-family:'Spline Sans Mono';font-size:14px;letter-spacing:.32em;color:#c9a89c;text-transform:uppercase">Module 3</div>
+  <h1 class="d" style="font-size:80px;font-weight:560;color:var(--paper);line-height:1;margin-top:18px;letter-spacing:-.02em">The Offer</h1>
+  <div style="font-size:21px;color:#b8b0a0;margin-top:24px;max-width:840px;line-height:1.45">You've decided who you're for and what you stand for. Now the thing itself — <em style="color:var(--apricot);font-style:italic">what you sell, at what price, packaged how.</em></div>
+  <div style="font-family:'Spline Sans Mono';font-size:120px;font-weight:600;color:rgba(232,160,140,.15);position:absolute;bottom:18px;right:64px;line-height:.8">03</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 3 — The Offer <span class="num">16</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:34px;margin-top:12px">Your offer = product + price + how it's packaged.</h2>
+  <div class="lead" style="margin-top:10px">The offer is everything the customer weighs before buying: the product itself, the price, and the way it's bundled, guaranteed, and delivered. Change any one and you change what they decide.</div>
+  <div class="vpc">
+    <div class="vside ci"><div class="lab">The customer</div><div class="vh">Jobs · Pains · Gains</div><ul><li>The job they're trying to do</li><li>What frustrates them today</li><li>The win they're hoping for</li></ul></div>
+    <div class="vside sq"><div class="lab">Your offer</div><div class="vh">Product · Relievers · Creators</div><ul><li>What you sell</li><li>How it removes the pain</li><li>How it delivers the gain</li></ul></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 3 — Example <span class="num">17</span></div>
+  <div class="rule"></div>
+  <div class="duo" style="margin-top:16px;align-items:stretch;gap:20px">
+    <div style="border:1px solid var(--line-2);border-radius:8px;overflow:hidden;display:flex;flex-direction:column">
+      <div style="display:flex;align-items:center;justify-content:center;background:var(--paper-2);min-height:370px;flex:1"><img src="_assets/ikea-ad.jpg" alt="IKEA — Spot the difference: same chair, lower price" style="width:100%;height:auto;max-height:370px;object-fit:contain;display:block"></div>
+      <div style="padding:13px 22px;background:#fff;border-top:1px solid var(--line)">
+        <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--proof);margin-bottom:5px">A clear trade-off · IKEA</div>
+        <div style="font-size:14.5px;color:var(--ink-soft);line-height:1.35">Same chair, lower price — the <b style="color:var(--ink)">offer</b> is the strategy.</div>
+      </div>
+    </div>
+    <div style="border:1px solid var(--line-2);border-radius:8px;overflow:hidden;display:flex;flex-direction:column">
+      <div style="display:flex;align-items:center;justify-content:center;background:var(--paper-2);min-height:370px;flex:1"><img src="_assets/dsc-ad.jpg" alt="Dollar Shave Club — Our Blades Are F**king Great" style="width:auto;height:100%;max-height:370px;object-fit:contain;display:block"></div>
+      <div style="padding:13px 22px;background:#fff;border-top:1px solid var(--line)">
+        <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--proof);margin-bottom:5px">The offer was the idea · Dollar Shave Club</div>
+        <div style="font-size:14.5px;color:var(--ink-soft);line-height:1.35">$1/month, blades to your door. The <b style="color:var(--ink)">offer</b> built the brand — before a cent on ads.</div>
+      </div>
+    </div>
+  </div>
+  <div class="takeaway">When marketing isn't working, the <b>offer</b> is often the real problem.</div>
+</section>
+<!-- TRANSITION → Module 4 -->
+<section class="slide" style="background:var(--ink);justify-content:center">
+  <div style="position:absolute;top:52px;right:64px;font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;color:#8a8273;text-transform:uppercase">Marketing in the AI Era</div>
+  <div style="font-family:'Spline Sans Mono';font-size:14px;letter-spacing:.32em;color:#c9a89c;text-transform:uppercase">Module 4 — Demand &amp; Channels</div>
+  <h1 class="d" style="font-size:68px;font-weight:560;color:var(--paper);line-height:1.05;margin-top:18px;letter-spacing:-.02em">Great product. <span style="color:var(--apricot)">Zero awareness.</span><br>Now what?</h1>
+  <div style="font-size:21px;color:#b8b0a0;margin-top:24px;max-width:840px;line-height:1.45">The best offer in the world still loses to the one people actually <em style="color:var(--apricot);font-style:italic">hear about</em>. Now: how do they find you?</div>
+  <div style="font-family:'Spline Sans Mono';font-size:120px;font-weight:600;color:rgba(232,160,140,.15);position:absolute;bottom:18px;right:64px;line-height:.8">04</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 4 — Demand & Channels <span class="num">18</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:36px;margin-top:10px">Match the message to the <em class="i">intent</em>.</h2>
+  <div class="funnel">
+    <div class="frow"><div class="fbar f1"><span class="fn">See</span><span class="fg">widest audience, no intent</span></div><span class="fch">social · video · PR</span></div>
+    <div class="frow"><div class="fbar f2"><span class="fn">Think</span><span class="fg">considering a solution</span></div><span class="fch">SEO/AEO · content · email</span></div>
+    <div class="frow"><div class="fbar f3"><span class="fn">Do</span><span class="fg">ready to buy</span></div><span class="fch">search ads · product pages</span></div>
+    <div class="frow"><div class="fbar f4"><span class="fn">Care</span><span class="fg">existing customers</span></div><span class="fch">email · loyalty · referral</span></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 4 — Example <span class="num">19</span></div>
+  <div class="rule"></div>
+  <div class="duo" style="margin-top:30px">
+    <div class="pane g"><div class="pl">One channel, big spike</div><div class="ph">Dollar Shave Club</div><div class="pd">One launch video, made for about $4,500, brought 12,000 sign-ups in 48 hours.</div></div>
+    <div class="pane g"><div class="pl">Stay present until they're ready</div><div class="ph">HubSpot</div><div class="pd">Software gets bought once every few years, so they built a content habit to stay top of mind through the long wait.</div></div>
+  </div>
+  <div class="takeaway">Find the stage you're missing, then build <b>one channel</b> that keeps paying off.</div>
+</section>
+<!-- CAMPAIGN TEARDOWN 1 · Dollar Shave Club -->
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 4 — Campaign Teardown · Guess the Objective <span class="num">20</span></div>
+  <div class="rule"></div>
+  <div class="vid">
+    <div class="frame"><iframe src="https://www.youtube.com/embed/ZUG9qYTJMsI" title="Dollar Shave Club launch video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="vtxt">
+      <div style="font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--proof);margin-bottom:10px">Dollar Shave Club</div>
+      <div class="vbig">One video.<br>12,000 sign-ups<br>in 48 hours.</div>
+      <div class="vsm">A 2012 launch video, made for about $4,500. It built the whole brand before they spent a cent on traditional ads.</div>
+      <div style="margin-top:20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)">🎯 Objective?</span><span style="font-family:'Spline Sans Mono';font-size:12px;color:var(--ink-soft);border:1px dashed var(--line-2);border-radius:999px;padding:4px 13px">↳ Acquisition · a launch</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CAMPAIGN TEARDOWN 2 · Novastacks AEO -->
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 4 — Campaign Teardown · Guess the Objective <span class="num">21</span></div>
+  <div class="rule"></div>
+  <div class="vid">
+    <div class="frame" style="background:#fff"><img src="_assets/novastacks-aeo.jpeg" alt="Google AI Overview naming Novastacks first for best AEO agency Singapore" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff"></div>
+    <div class="vtxt">
+      <div style="font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--proof);margin-bottom:10px">Novastacks · our own</div>
+      <div class="vbig" style="font-size:44px">The AI names<br>us first.</div>
+      <div class="vsm">Search "best AEO agency Singapore" and Google's AI Overview puts Novastacks at the top of its answer. New customers discover us inside the AI's recommendation — not by scrolling ten blue links. That's AEO.</div>
+      <div style="margin-top:20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)">🎯 Objective?</span><span style="font-family:'Spline Sans Mono';font-size:12px;color:var(--ink-soft);border:1px dashed var(--line-2);border-radius:999px;padding:4px 13px">↳ Discovery · new-customer awareness</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CAMPAIGN TEARDOWN 3 · Amazon -->
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 4 — Campaign Teardown · Guess the Objective <span class="num">22</span></div>
+  <div class="rule"></div>
+  <div class="vid">
+    <div class="frame" style="background:#fff"><div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;padding:30px"><img src="_assets/amazon-logo.png" alt="Amazon" style="width:300px;max-width:60%"><div style="display:flex;align-items:center;gap:22px;flex-wrap:wrap;justify-content:center"><img src="_assets/amazon-prime-logo.png" alt="Amazon Prime" style="height:44px"><span style="background:#FFD814;border:1px solid #FCD200;border-radius:999px;padding:11px 24px;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:600;color:#0F1111">Buy now with 1-Click ›</span></div></div></div>
+    <div class="vtxt">
+      <div style="font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--proof);margin-bottom:10px">Amazon</div>
+      <div class="vbig" style="font-size:46px">1-click checkout.<br>Prime membership.</div>
+      <div class="vsm">1-click checkout makes buying effortless. Prime makes leaving costly.</div>
+      <div style="margin-top:20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)">🎯 Objective?</span><span style="font-family:'Spline Sans Mono';font-size:12px;color:var(--ink-soft);border:1px dashed var(--line-2);border-radius:999px;padding:4px 13px">↳ Conversion · remove friction (+ retention)</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CAMPAIGN TEARDOWN 4 · Spotify Wrapped -->
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 4 — Campaign Teardown · Guess the Objective <span class="num">23</span></div>
+  <div class="rule"></div>
+  <div class="vid">
+    <div class="frame"><div style="position:absolute;inset:0;background:var(--paper-2);border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center"><div style="color:var(--ink-soft);font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.1em;line-height:1.7;padding:24px">[ IMAGE TO ADD ]<br><span style="color:var(--accent);font-size:14px">Spotify Wrapped</span><br>personalised year-in-review</div></div></div>
+    <div class="vtxt">
+      <div style="font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--proof);margin-bottom:10px">Spotify Wrapped</div>
+      <div class="vbig" style="font-size:44px">Your year in music —<br>built to be shared.</div>
+      <div class="vsm">Every December, Spotify turns each user's own listening data into a personalised, shareable story. Users post it everywhere — free reach that pulls new users in, every year.</div>
+      <div style="margin-top:20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)">🎯 Objective?</span><span style="font-family:'Spline Sans Mono';font-size:12px;color:var(--ink-soft);border:1px dashed var(--line-2);border-radius:999px;padding:4px 13px">↳ Retention &amp; Advocacy</span></div>
+    </div>
+  </div>
+</section>
+<section class="slide qslide">
+  <div class="kicker"><span class="dot"></span> Your Turn — Discuss <span class="num">24</span></div>
+  <div class="rule"></div>
+  <div class="qbody">
+    <div class="qmark">Q.</div>
+    <h1 class="d">Where is the gap in how customers find you?</h1>
+    <ol>
+      <li>Map your channels onto <b>See, Think, Do, Care</b>. Most owners sit only at "Do."</li>
+      <li>Pick <b>one channel</b> to build first.</li>
+    </ol>
+    <div class="time">8 min · 3 min to share</div>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 5 — Conversion & Retention <span class="num">25</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:36px;margin-top:10px">Convert, then <em class="i">keep</em>.</h2>
+  <div class="fly">
+    <div class="node">Convert</div><span class="ar">→</span>
+    <div class="node k">Keep</div><span class="ar">→</span>
+    <div class="node">Advocate</div><span class="ar">↺</span>
+  </div>
+  <div class="triad">
+    <div class="tri"><div class="th">Convert</div><div class="td">Remove friction so an interested person actually buys.</div></div>
+    <div class="tri"><div class="th">Keep</div><div class="td">Build the habit: a trigger, an action, a reward, repeated.</div></div>
+    <div class="tri"><div class="th">Advocate</div><div class="td">Happy customers bring in the next ones at low cost.</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 5 — Example <span class="num">26</span></div>
+  <div class="rule"></div>
+  <div class="duo" style="margin-top:30px">
+    <div class="pane g"><div class="pl">Convert and retain</div><div class="ph">Amazon</div><div class="pd">1-click checkout makes buying effortless. Prime makes leaving costly.</div></div>
+    <div class="pane g"><div class="pl">Retain and advocate</div><div class="ph">Spotify Wrapped</div><div class="pd">It turns a year of listening into a shareable moment that keeps users and brings in new ones at the same time.</div></div>
+  </div>
+  <div class="takeaway">Removing friction and giving people a reason to return often beats a bigger ad budget.</div>
+</section>
+<section class="slide qslide">
+  <div class="kicker"><span class="dot"></span> Your Turn — Discuss <span class="num">27</span></div>
+  <div class="rule"></div>
+  <div class="qbody">
+    <div class="qmark">Q.</div>
+    <h1 class="d">Where do you lose people, and why don't they come back?</h1>
+    <ol>
+      <li>Walk your own buying process. Name <b>one point of friction</b> to remove this week.</li>
+      <li>Give customers <b>one reason</b> to return.</li>
+    </ol>
+    <div class="time">7 min · 3 min to share</div>
+  </div>
+</section>
+<!-- TRANSITION → Module 6 -->
+<section class="slide" style="background:var(--ink);justify-content:center">
+  <div style="position:absolute;top:52px;right:64px;font-family:'Spline Sans Mono';font-size:12px;letter-spacing:.2em;color:#8a8273;text-transform:uppercase">Marketing in the AI Era</div>
+  <div style="font-family:'Spline Sans Mono';font-size:14px;letter-spacing:.32em;color:#c9a89c;text-transform:uppercase">Module 6 — Measurement &amp; Growth</div>
+  <h1 class="d" style="font-size:78px;font-weight:560;color:var(--paper);line-height:1.0;margin-top:18px;letter-spacing:-.02em">Did it actually <span style="color:var(--apricot)">work?</span></h1>
+  <div style="font-size:21px;color:#b8b0a0;margin-top:24px;max-width:860px;line-height:1.45">You've created demand, converted, and kept customers. Now the one question that funds the next round: is this a <em style="color:var(--apricot);font-style:italic">machine</em>, or a money pit?</div>
+  <div style="font-family:'Spline Sans Mono';font-size:120px;font-weight:600;color:rgba(232,160,140,.15);position:absolute;bottom:18px;right:64px;line-height:.8">06</div>
+</section>
+
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 6 — Measurement & Growth <span class="num">28</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:32px;margin-top:8px">Sort every metric into three buckets.</h2>
+  <div class="lead" style="margin-top:8px;font-size:17px">Don't drown in numbers. Each one is either something you <b>put in</b>, something the campaign <b>produced</b>, or something the business actually <b>got</b>.</div>
+  <div style="display:flex;align-items:stretch;gap:12px;margin-top:20px;flex:1">
+    <div style="flex:1;border:1px solid var(--line-2);border-radius:8px;padding:20px 22px;background:#fff;display:flex;flex-direction:column">
+      <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--exec)">1 · Campaign Input</div>
+      <div style="font-family:'Fraunces';font-size:20px;font-weight:560;margin-top:5px;line-height:1.1">What you put in</div>
+      <ul style="list-style:none;margin-top:15px;display:flex;flex-direction:column;gap:11px">
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink-soft);display:flex;gap:9px"><span style="color:var(--exec)">•</span>Ad spend / budget</li>
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink-soft);display:flex;gap:9px"><span style="color:var(--exec)">•</span>Content produced — posts, emails, ads</li>
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink-soft);display:flex;gap:9px"><span style="color:var(--exec)">•</span>Channels &amp; time</li>
+      </ul>
+    </div>
+    <div style="display:flex;align-items:center;color:var(--accent);font-family:'Fraunces';font-size:28px">→</div>
+    <div style="flex:1;border:1px solid var(--line-2);border-radius:8px;padding:20px 22px;background:#fff;display:flex;flex-direction:column">
+      <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)">2 · Campaign Output</div>
+      <div style="font-family:'Fraunces';font-size:20px;font-weight:560;margin-top:5px;line-height:1.1">How efficiently it ran</div>
+      <ul style="list-style:none;margin-top:15px;display:flex;flex-direction:column;gap:11px">
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink-soft);display:flex;gap:9px"><span style="color:var(--accent)">•</span>Impressions &amp; reach</li>
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink-soft);display:flex;gap:9px"><span style="color:var(--accent)">•</span>CTR · CPC</li>
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink-soft);display:flex;gap:9px"><span style="color:var(--accent)">•</span>CAC · ROAS</li>
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink-soft);display:flex;gap:9px"><span style="color:var(--accent)">•</span>LTV · LTV : CAC</li>
+      </ul>
+    </div>
+    <div style="display:flex;align-items:center;color:var(--accent);font-family:'Fraunces';font-size:28px">→</div>
+    <div style="flex:1;border:1px solid var(--proof);border-radius:8px;padding:20px 22px;background:#eef4f2;display:flex;flex-direction:column">
+      <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--proof)">3 · Business Outcome</div>
+      <div style="font-family:'Fraunces';font-size:20px;font-weight:560;margin-top:5px;line-height:1.1">What the business got</div>
+      <ul style="list-style:none;margin-top:15px;display:flex;flex-direction:column;gap:11px">
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink);display:flex;gap:9px"><span style="color:var(--proof)">•</span># of new customers</li>
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink);display:flex;gap:9px"><span style="color:var(--proof)">•</span>Active users</li>
+        <li style="font-size:15.5px;line-height:1.3;color:var(--ink);display:flex;gap:9px"><span style="color:var(--proof)">•</span>Revenue &amp; growth</li>
+      </ul>
+    </div>
+  </div>
+  <div class="takeaway">Outputs feel good. <b>Outcomes pay the bills.</b> Never report one as if it were the other.</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Module 6 — Example <span class="num">29</span></div>
+  <div class="rule"></div>
+  <div class="center">
+    <h1 class="d" style="font-size:60px">Spend <span class="accent">$200</span> to win a customer<br>worth <span class="accent">$800</span>.</h1>
+    <div class="lead" style="margin-top:24px;font-size:21px">That is a healthy 4 to 1. Two things to check next: how long until you earn the $200 back, and which stage leaks the most.</div>
+  </div>
+  <div class="takeaway">You don't need perfect data. Know your <b>CAC, your LTV, and your biggest leak</b>.</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Activity 2 — Diagnose Your Leak <span class="num">30</span></div>
+  <div class="rule"></div>
+  <h1 class="d" style="font-size:60px;margin-top:14px">Where's your <em class="i">leak?</em></h1>
+  <div class="leaks">
+    <div class="leak"><div class="ln">01</div><div class="lt">Demand</div><div class="ld">No one finds you.</div><div class="lf">↳ fix channels</div></div>
+    <div class="leak"><div class="ln">02</div><div class="lt">Positioning</div><div class="ld">They find you but don't get why you.</div><div class="lf">↳ fix the message</div></div>
+    <div class="leak"><div class="ln">03</div><div class="lt">Conversion</div><div class="ld">Interested, but they don't buy.</div><div class="lf">↳ fix the offer</div></div>
+    <div class="leak"><div class="ln">04</div><div class="lt">Retention</div><div class="ld">They buy once, then leave.</div><div class="lf">↳ fix the experience</div></div>
+  </div>
+  <div class="takeaway">Fix the <b>earliest serious leak</b> first. It is rarely the loudest one.</div>
+</section>
+</div>
+<div class="dk2">
+<section class="slide" style="background:#17140f;color:#f3efe6;justify-content:center;align-items:flex-start">
+  <div style="font-family:'Spline Sans Mono',monospace;font-size:15px;letter-spacing:.34em;text-transform:uppercase;color:#c9a89c">Section 2</div>
+  <h1 style="font-family:'Fraunces',serif;font-size:84px;font-weight:560;line-height:1.0;margin-top:22px;letter-spacing:-.02em">Channels &amp; Social Media</h1>
+  <div style="font-size:21px;color:#b8b0a0;margin-top:24px;max-width:760px;line-height:1.4">Social media, influencers and UGC, content optimisation, and email — where the demand you create actually reaches people.</div>
+</section>
+<section class="slide divider">
+  <div class="dtag">SMU · Day 1 — Section 2</div>
+  <div class="eyebrow">Part 1 of 4</div>
+  <h1 class="d">Social Media<br>Marketing</h1>
+  <div class="dsub">Your shop that's open 24 hours a day — where attention becomes enquiries and sales.</div>
+  <div class="dbn">01</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Social Media Marketing <span class="num">02</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:34px;margin-top:10px">Social media marketing is usually <em class="i">three</em> workstreams.</h2>
+  <div class="lead" style="margin-top:8px">Most owners think "social" is one thing — posting. It's really three different jobs, each reaching a different audience.</div>
+  <div class="grid3 auto">
+    <div class="gcard">
+      <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:9px">01 · Owned</div>
+      <div class="gh">Your own social accounts</div>
+      <ul>
+        <li>The shop that's open 24 hours — an <b>extension of your website</b></li>
+        <li>Most followers are your <b>loyal community</b>, or people just learning about you</li>
+        <li>Use it for <b>product announcements</b> and to engage your most frequent, loyal customers</li>
+      </ul>
+    </div>
+    <div class="gcard">
+      <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:9px">02 · Paid Social</div>
+      <div class="gh">Ads you buy on the platforms</div>
+      <ul>
+        <li>You <b>buy ads</b> on Instagram or Facebook</li>
+        <li>Mostly used for <b>user acquisition</b> — reaching new users and prospects</li>
+        <li>Puts you in front of people who don't follow you yet</li>
+      </ul>
+    </div>
+    <div class="gcard">
+      <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:9px">03 · Influencers</div>
+      <div class="gh">Third-party creators</div>
+      <ul>
+        <li>You engage <b>influencers</b> on the social platforms</li>
+        <li>They expose <b>their own audience</b> to your products and services</li>
+        <li>Borrowed reach and borrowed trust, beyond your own following</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Social Media Marketing <span class="num">03</span></div>
+  <div class="rule"></div>
+  <div class="split">
+    <div>
+      <div class="copylead"><span class="mk">Social media</span> is like having a <b>shop that is open 24 hours a day</b>. It allows you to:</div>
+      <ul class="blist">
+        <li>Show your products and services</li>
+        <li>Talk to customers directly</li>
+        <li>Build trust before they ever visit your store or website</li>
+        <li>Turn attention into enquiries and sales</li>
+      </ul>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:18px;align-items:center">
+      <img class="illus" src="_assets/src/s106_0.png" alt="Facebook on phone" style="width:280px">
+      <img class="illus" src="_assets/src/s106_1.png" alt="Video with like" style="width:220px">
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Social Media Channels <span class="num">04</span></div>
+  <div class="rule"></div>
+  <div class="chgrid">
+    <div class="chcard"><img class="logo" src="_assets/src/s107_2.png" alt="Facebook"><div class="nm">Facebook</div></div>
+    <div class="chcard"><img class="logo" src="_assets/src/s107_0.png" alt="Instagram"><div class="nm">Instagram</div></div>
+    <div class="chcard"><img class="logo" src="_assets/src/s107_1.png" alt="Tiktok"><div class="nm">Tiktok</div></div>
+    <div class="chcard"><img class="logo" src="_assets/src/s107_4.png" alt="Google"><div class="nm">Google</div></div>
+    <div class="chcard"><img class="logo" src="_assets/src/s107_3.png" alt="Xiao Hong Shu"><div class="nm">Xiao Hong Shu</div><div class="ds">(rednote)</div></div>
+    <div class="chcard"><img class="logo" src="_assets/src/s107_5.png" alt="Lemon8"><div class="nm">Lemon8</div></div>
+    <div class="chcard"><img class="logo" src="_assets/src/s107_6.png" alt="Whatsapp"><div class="nm">Whatsapp</div></div>
+    <div class="chcard"><img class="logo" src="_assets/src/s107_7.png" alt="Linkedin"><div class="nm">Linkedin</div></div>
+    <div class="chcard"><img class="logo" src="_assets/src/s107_8.png" alt="Telegram"><div class="nm">Telegram</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> 15 Most Popular Social Networks <span class="num">05</span></div>
+  <div class="rule"></div>
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:6px">
+    <img src="_assets/src/s108_0.png" alt="15 most popular social networks by monthly active users" style="max-height:540px;width:auto;border-radius:8px">
+    <div style="font-family:'Spline Sans Mono';font-size:11px;color:var(--ink-soft);margin-top:10px">Credits: Statusbrew — statusbrew.com/insights/social-media-statistics</div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Social Media Channels — Facebook <span class="num">06</span></div>
+  <div class="rule"></div>
+  <div class="guide">
+    <div>
+      <div class="ghead"><img class="logo" src="_assets/src/s107_2.png" alt="Facebook"><div class="gn">Facebook</div></div>
+      <div class="glist">
+        <div class="gl">Best for</div>
+        <ul><li>Older Audience</li><li>Service Businesses</li><li>Community-based Brands</li></ul>
+        <div class="gl">Good for</div>
+        <ul><li>Promotions</li><li>Customer messages</li><li>Reviews</li><li>Groups</li></ul>
+      </div>
+    </div>
+    <div class="gshots">
+      <img class="shot" src="_assets/src/s109_1.png" alt="Facebook video post">
+      <img class="shot" src="_assets/src/s109_0.png" alt="Facebook event page">
+      <img class="shot" src="_assets/src/s109_3.png" alt="Facebook photo album">
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Social Media Channels — Instagram <span class="num">07</span></div>
+  <div class="rule"></div>
+  <div class="guide">
+    <div>
+      <div class="ghead"><img class="logo" src="_assets/src/s107_0.png" alt="Instagram"><div class="gn">Instagram</div></div>
+      <div class="glist">
+        <div class="gl">Best for</div>
+        <ul><li>Visual Businesses (eg. food, beauty, fitness, fashion, travel)</li></ul>
+        <div class="gl">Good for</div>
+        <ul><li>Photos and short videos</li><li>Behind-the-scenes content</li><li>Influencer marketing</li></ul>
+      </div>
+    </div>
+    <div class="gshots">
+      <img class="shot" src="_assets/src/s110_0.png" alt="Instagram post">
+      <img class="shot" src="_assets/src/s110_2.png" alt="Instagram product">
+      <img class="shot" src="_assets/src/s110_3.png" alt="Instagram stories">
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Social Media Channels — Tiktok <span class="num">08</span></div>
+  <div class="rule"></div>
+  <div class="guide">
+    <div>
+      <div class="ghead"><img class="logo" src="_assets/src/s107_1.png" alt="Tiktok"><div class="gn">Tiktok</div></div>
+      <div class="glist">
+        <div class="gl">Best for</div>
+        <ul><li>Larger reach</li><li>Targeting younger audiences</li></ul>
+        <div class="gl">Good for</div>
+        <ul><li>Short videos</li><li>Education</li><li>Entertainment</li><li>Viral exposure</li></ul>
+      </div>
+    </div>
+    <div class="gshots">
+      <img class="shot" src="_assets/src/s111_0.png" alt="TikTok post">
+      <img class="shot" src="_assets/src/s111_1.png" alt="TikTok video">
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Types of Posts on Social that Engages <span class="num">09</span></div>
+  <div class="rule"></div>
+  <div class="quad">
+    <div class="qcell"><img src="_assets/src/s112_0.png" alt="How to posts"><div><div class="ql">"How to…"</div><div class="qs">Teach something useful, step by step.</div></div></div>
+    <div class="qcell"><img src="_assets/src/s112_1.png" alt="Behind the scenes"><div><div class="ql">"Behind-the-Scenes"</div><div class="qs">Show the people and process.</div></div></div>
+    <div class="qcell"><img src="_assets/src/s112_2.png" alt="Memes"><div><div class="ql">"Memes / Entertaining Post"</div><div class="qs">Be human and worth sharing.</div></div></div>
+    <div class="qcell"><img src="_assets/src/s112_3.png" alt="Sales announcements"><div><div class="ql">"Sales / Announcements"</div><div class="qs">Offers, launches and news.</div></div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Social Media Marketing — Readiness <span class="num">10</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:34px;margin-top:10px">Are you ready for social media? <span style="font-family:'Archivo';font-size:18px;font-weight:400;color:var(--ink-soft)">(Readiness checklist)</span></h2>
+  <div class="checks">
+    <div class="chk"><div class="ct">Purpose &amp; Role</div><ul><li>Why are you on social media?</li><li>What business outcome should it support?</li><li>What is social media not responsible for?</li></ul></div>
+    <div class="chk"><div class="ct">Audience Reality</div><ul><li>Where is your audience actually active?</li><li>How do they consume and engage with content?</li><li>What do they care about enough to react to?</li></ul></div>
+    <div class="chk"><div class="ct">Capability &amp; Commitment</div><ul><li>Can you commit consistently over time?</li><li>Do you have a clear owner and process?</li><li>Do you have something meaningful to say?</li></ul></div>
+    <div class="chk"><div class="ct">Governance &amp; Risk</div><ul><li>How will you respond to negative feedback?</li><li>Who decides what to reply publicly vs privately?</li><li>Are you prepared to listen and adapt?</li></ul></div>
+    <div class="chk"><div class="ct">Measurement &amp; Integration</div><ul><li>How will you measure success?</li><li>How does social connect to the rest of your marketing?</li></ul></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> What Success Looks Like on Social Media <span class="num">11</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Aligning Objectives with Reality</div>
+  <div class="tbl">
+    <div class="tr thr"><div>Objective</div><div>What social media is actually doing</div></div>
+    <div class="tr"><div class="tk">Awareness</div><div class="tv">Reach, recall, familiarity</div></div>
+    <div class="tr"><div class="tk">Trust</div><div class="tv">Credibility, social proof</div></div>
+    <div class="tr"><div class="tk">Consideration</div><div class="tv">Education, reassurance</div></div>
+    <div class="tr"><div class="tk">Retention</div><div class="tv">Ongoing relationship</div></div>
+    <div class="tr"><div class="tk">Conversion</div><div class="tv">Supportive, not primary</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="dtag" style="position:absolute;top:52px;right:64px;font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.2em;color:var(--ink-soft)">PART 2 OF 4</div>
+  <div class="kicker"><span class="dot"></span> Influencer / Content Creators <span class="num">12</span></div>
+  <div class="rule"></div>
+  <div class="portraits">
+    <img src="_assets/src/s115_0.png" alt="Creator 1">
+    <img src="_assets/src/s115_1.png" alt="Creator 2">
+    <img src="_assets/src/s115_2.png" alt="Creator 3">
+    <img src="_assets/src/s115_3.png" alt="Creator 4">
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> AI Influencer / Content Creators <span class="num">13</span></div>
+  <div class="rule"></div>
+  <div class="aicards">
+    <div class="aicard">
+      <img src="_assets/src/s116_0.png" alt="imma.gram">
+      <div>
+        <div class="hd">imma.gram <span class="vb">✓</span></div>
+        <div class="nm">imma</div>
+        <div class="stats"><div><b>901</b>posts</div><div><b>387K</b>followers</div><div><b>850</b>following</div></div>
+      </div>
+    </div>
+    <div class="aicard">
+      <img src="_assets/src/s116_1.png" alt="fit_aitana">
+      <div>
+        <div class="hd">fit_aitana <span class="vb">✓</span></div>
+        <div class="nm">Aitana Lopez ✦ | Virtual Soul</div>
+        <div class="stats"><div><b>194</b>posts</div><div><b>385K</b>followers</div><div><b>462</b>following</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Influencer / Content Creators <span class="num">14</span></div>
+  <div class="rule"></div>
+  <div class="sub2" style="color:var(--proof)">What It Is</div>
+  <div class="lead" style="margin-top:6px;color:var(--ink)">Collaborating with individuals who have a <b>strong, engaged following</b> on social media to promote a brand, product, or service.</div>
+  <div class="grid3">
+    <div class="gcard"><div class="gh">Types of Influencers</div><ul>
+      <li><b>Mega:</b> 1M+ followers (broad reach)</li>
+      <li><b>Macro:</b> 100K–1M followers (wider niche reach)</li>
+      <li><b>Micro:</b> 10K–100K followers (high engagement)</li>
+      <li><b>Nano:</b> 1K–10K followers (very niche, highly trusted)</li></ul></div>
+    <div class="gcard"><div class="gh">Benefits</div><ul>
+      <li>Builds <b>trust and credibility</b> through personal endorsements</li>
+      <li>Reaches <b>targeted audiences</b> more effectively than generic ads</li>
+      <li>Potential to boost <b>brand awareness, engagement and sales</b></li></ul></div>
+    <div class="gcard"><div class="gh">Strategies</div><ul>
+      <li>Sponsored posts or videos</li>
+      <li>Product reviews/unboxing</li>
+      <li>Giveaways or contests</li>
+      <li>Affiliate partnerships</li></ul></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Why Are You Using Influencers? <span class="num">15</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Start Here: Defining Objectives</div>
+  <div class="split" style="grid-template-columns:.85fr 1.15fr">
+    <div class="pane g" style="min-height:0;align-self:center">
+      <div class="pl">Are you trying to:</div>
+      <ul><li>Build awareness?</li><li>Borrow trust?</li><li>Drive trial?</li><li>Create content?</li><li>Influence consideration?</li></ul>
+      <div style="font-family:'Fraunces';font-style:italic;font-weight:540;color:var(--proof);margin-top:16px;font-size:18px">"Different objectives = different influencer choices."</div>
+    </div>
+    <div class="ladder">
+      <div class="rung bad"><div class="rl">✕ Bad Strategy</div><div class="rt">"Let's find influencers with big followings."</div></div>
+      <div class="rung better"><div class="rl">— Better Strategy</div><div class="rt">"Let's find influencers in our category."</div></div>
+      <div class="rung best"><div class="rl">✓ Best Strategy</div><div class="rt">"Let's find creators whose audience already trusts them for this specific decision."</div></div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Not All Influencers Are Equal <span class="num">16</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Vetting for Authenticity &amp; Impact</div>
+  <div class="split">
+    <div>
+      <div style="font-family:'Fraunces';font-size:22px;font-weight:560;color:var(--proof)">What to Audit <span style="font-size:14px;font-style:italic;color:var(--ink-soft);font-weight:400">(Beyond just follower count)</span></div>
+      <div style="margin-top:16px">
+        <div class="auditcard">Content tone and authenticity</div>
+        <div class="auditcard">How often they do sponsored posts</div>
+        <div class="auditcard">Audience comments (real vs generic)</div>
+        <div class="auditcard">Whether their content feels forced or natural</div>
+      </div>
+    </div>
+    <div class="insight">
+      <div class="il">⚠ Critical Insight</div>
+      <div class="iq">"Influencers who are overly commercial tend to deliver lower trust and weaker results."</div>
+      <div class="if">→ Prioritize trust over reach</div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Using Influencers for Campaigns vs Building Brand Ambassadors <span class="num">17</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Strategic Approaches &amp; Hybrid Models</div>
+  <div class="cmp3">
+    <div class="cmpcol c1">
+      <div class="chd">📣 Campaigns</div>
+      <div class="cmpbody">
+        <div class="cseg"><div class="sl ok">✓ What works</div><ul><li>Creative storytelling, not forced placement</li><li>Content fits naturally in creator's style</li><li>Clear narrative (launch, feature, occasion)</li><li>Authentic usage that feels genuine</li></ul></div>
+        <div class="cseg"><div class="sl">⚡ Strengths</div><ul><li>Flexibility with wider range of creators</li><li>Ideal for specific launches or products</li><li>Quick testing of formats and angles</li><li>More control over cost and scope</li></ul></div>
+        <div class="cseg"><div class="sl warn">⚠ Risk to watch</div><ul><li>Feels transactional if over-scripted</li><li>Weak results if creator–brand fit is poor</li></ul><div class="q" style="margin-top:6px">"A campaign fails not because it's one-off — but because it feels like an ad."</div></div>
+      </div>
+    </div>
+    <div class="cmpcol c2">
+      <div class="chd">★ Brand Ambassadors</div>
+      <div class="cmpbody">
+        <div class="cseg"><div class="sl ok">✓ What works</div><ul><li>Ongoing, natural integration</li><li>Repeated exposure builds familiarity</li><li>Strong creator–brand alignment</li><li>Less "selling", more lived experience</li></ul></div>
+        <div class="cseg"><div class="sl">⚡ Strengths</div><ul><li>Trust compounds over time</li><li>Content feels more organic and credible</li><li>Higher long-term ROI</li><li>Easier content reuse across channels</li></ul></div>
+        <div class="cseg"><div class="sl warn">⇄ Trade-offs</div><ul><li>Requires longer commitment</li><li>Smaller creator pool &amp; less flexibility</li></ul><div class="q" style="margin-top:6px">"Ambassadors don't sell faster — they sell more convincingly."</div></div>
+      </div>
+    </div>
+    <div class="cmpcol c3">
+      <div class="chd">⤬ Hybrid Strategy</div>
+      <div class="cmpbody">
+        <div class="cseg"><div class="sl ok">Launch &amp; awareness</div><ul><li>Use macro influencers to kickstart visibility</li><li>Create cultural or conversational momentum</li></ul></div>
+        <div class="cseg"><div class="sl ok">Sustained trust</div><ul><li>Use mid-tier or nano as ambassadors</li><li>Better engagement &amp; cost-efficiency</li><li>Builds stronger trust over time</li></ul></div>
+      </div>
+      <div class="golden"><div class="gt">The Golden Rule</div><div class="gv">Scale awareness fast. Build trust steadily.</div></div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Good Influencer Content Feels Natural — Not Directed <span class="num">18</span></div>
+  <div class="rule"></div>
+  <div class="duo">
+    <div class="pane a"><div class="pl">✕ What Often Goes Wrong</div><ul style="margin-top:6px"><li>Over-scripted briefs that kill spontaneity</li><li>Forcing corporate brand language</li><li>Too many mandatory talking points</li></ul></div>
+    <div class="pane g"><div class="pl">✓ Better Approach</div><ul style="margin-top:6px"><li>Clear objective aligned with creator style</li><li>Clear boundaries on what not to say</li><li>Creative freedom within guardrails</li></ul></div>
+  </div>
+  <div class="takeaway"><b>"If it doesn't sound like them, it won't work</b> — no matter how perfect the brief is."</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> UGC = Trust at Scale <span class="num">19</span></div>
+  <div class="rule"></div>
+  <div class="duo">
+    <div class="pane g"><div class="pl" style="text-align:center;width:100%">Why UGC Matters</div><ul style="margin-top:6px"><li>Feels more authentic than brand content</li><li>Reduces perceived risk</li><li>Acts as social proof</li><li>Highly reusable across channels</li></ul></div>
+    <div class="pane g"><div class="pl" style="text-align:center;width:100%">How UGC Can Be Used</div><ul style="margin-top:6px"><li>Organic social posts</li><li>Paid ads (with permission)</li><li>Website testimonials</li><li>Product pages</li><li>CRM / email marketing</li></ul></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Case Study 1: Brand Ambassador Approach <span class="num">20</span></div>
+  <div class="rule"></div>
+  <div class="case c1">
+    <div class="cmeta">
+      <div><div class="ml">Client</div><div class="mv">MSIG Insurance</div></div>
+      <div><div class="ml">Campaign Theme</div><span class="chip">#RealSmallProblems</span></div>
+      <div class="blk"><div class="bl">The Strategy</div><div class="bt">Engaged 5 key influencers for a 1-year partnership to position them as authentic brand ambassadors rather than one-off promoters.</div></div>
+      <div class="blk"><div class="bl">The Concept</div><div class="bt">Influencers recounted seemingly small, relatable travel mishaps that caused frustration, positioning insurance as the solution to everyday inconveniences.</div></div>
+    </div>
+    <div>
+      <div class="sub2" style="margin-top:0;color:var(--exec)">The Ambassador Squad · Travel · Lifestyle · Parenting</div>
+      <div class="squad" style="margin-top:10px">
+        <div class="sqc"><img src="_assets/src/s123_0.png" alt="Amelyn Beverly"><div class="sqi"><div class="sqn">Amelyn Beverly</div><div class="sqt">Travel</div><div class="sqd">Authentic travel moments &amp; visual storytelling</div></div></div>
+        <div class="sqc"><img src="_assets/src/s123_1.png" alt="Keith Yuen"><div class="sqi"><div class="sqn">Keith Yuen</div><div class="sqt">Travel</div><div class="sqd">Adventure travel &amp; unique destinations</div></div></div>
+        <div class="sqc"><img src="_assets/src/s123_2.png" alt="Jemma Wei"><div class="sqi"><div class="sqn">Jemma Wei</div><div class="sqt">Lifestyle</div><div class="sqd">Literary lifestyle &amp; thoughtful narratives</div></div></div>
+        <div class="sqc"><img src="_assets/src/s123_7.png" alt="Aarika Lee"><div class="sqi"><div class="sqn">Aarika Lee</div><div class="sqt">Parenting</div><div class="sqd">Family travel &amp; relatable parenting hurdles</div></div></div>
+        <div class="sqc"><img src="_assets/src/s123_8.png" alt="Xin Lin"><div class="sqi"><div class="sqn">Xin Lin</div><div class="sqt">Lifestyle</div><div class="sqd">Aesthetic lifestyle &amp; daily inspirations</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Case Study 2: Campaign Approach — One-Off Product Launch Strategy <span class="num">21</span></div>
+  <div class="rule"></div>
+  <div class="case c2">
+    <div class="cmeta">
+      <div><div class="ml">Client</div><div class="mv">Eu Yan Sang</div></div>
+      <div><div class="ml">Campaign</div><span class="chip">Mother's Day Bird's Nest</span></div>
+      <div class="blk"><div class="bl">The Emotional Hook</div><div class="bt q">"For 365 days your mother has taken care of you. For 1 day, you can take care of your mum."</div></div>
+      <div class="blk"><div class="bl">Campaign Mechanism</div><div class="bt">Product seeding via an exclusive gift box to generate immediate visual impact and authentic reactions.</div></div>
+    </div>
+    <div class="seedbox">
+      <img src="_assets/src/s124_0.png" alt="The seeding kit">
+      <div class="seedlist">
+        <div class="sh">Exclusive Gift Box Contents</div>
+        <div class="si"><span>Premium Slow Cooker</span><span>2pcs Raw Bird's Nest</span><span>Premium Rock Sugar</span><span>Red Dates</span><span>Detailed Pocket Guide (Recipe &amp; Tips)</span><span>Premium Packaging Design</span></div>
+      </div>
+    </div>
+    <div class="impact">
+      <div class="impbox"><div class="iv">500k+</div><div class="il">Organic Views Generated</div></div>
+      <div class="impbox"><div class="id">😊 Positive Sentiment</div><div class="idd">High resonance with emotional messaging</div></div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> How Social Media, Influencers &amp; UGC Work Together <span class="num">22</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Integrated Ecosystem Flow</div>
+  <div class="vflow">
+    <div class="vstep"><div class="vn">Social Media</div><div class="vd">Builds presence</div></div>
+    <div class="varrow">↓</div>
+    <div class="vstep"><div class="vn">Influencers</div><div class="vd">Accelerate trust</div></div>
+    <div class="varrow">↓</div>
+    <div class="vstep"><div class="vn">User Generated Content (UGC)</div><div class="vd">Sustains credibility</div></div>
+    <div class="varrow">↓</div>
+    <div class="vstep"><div class="vn">Paid Media</div><div class="vd">Amplifies what already works</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Uses AI to Scale Influencer Campaigns <span class="num">23</span></div>
+  <div class="rule"></div>
+  <div class="grid3" style="margin-top:14px;flex:1;align-content:stretch">
+    <div class="gcard"><div class="gh" style="color:var(--accent)">⚠ The Challenge</div>
+      <div style="font-family:'Fraunces';font-style:italic;font-size:15px;margin:8px 0;color:var(--ink)">"It wasn't creativity — it was scale and consistency."</div>
+      <ul style="margin-top:4px">
+        <li>How do we deliver content at volume?</li>
+        <li>How to meet requirements across platforms?</li>
+        <li>How to maintain authenticity while fast?</li>
+        <li>How do we track performance across thousands of influencer content generated through our campaigns?</li></ul></div>
+    <div style="display:flex;flex-direction:column">
+      <div style="font-family:'Fraunces';font-size:19px;font-weight:560;color:var(--proof);margin-bottom:10px">⚙ Our AIGC Solution</div>
+      <div class="io"><div class="input"><div class="iohd">Input</div><div class="iogrid"><span>KOM Images</span><span>Voice Samples</span><span>Product Info</span><span>Guardrails</span></div></div></div>
+      <div class="ooutput"><div class="ol">Output</div><div class="ob">📹 AIGC Video Generated in Seconds</div><div class="od">Consistent, on-brand, and creator-aligned content ready for deployment at scale.</div></div>
+      <div style="font-family:'Fraunces';font-style:italic;font-size:13px;color:var(--proof);margin-top:10px;text-align:center">"AI helps scale execution — strategy &amp; storytelling remain human."</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div class="gcard" style="flex:1"><div class="gh">★ Why This Matters</div><ul><li>Faster turnaround for campaigns</li><li>Reduces production bottlenecks</li><li>Consistent across multiple creators</li><li>Makes large programs viable</li></ul></div>
+      <div class="gcard" style="flex:1"><div class="gh" style="font-size:18px">📈 AI Beyond Creation</div><div style="font-size:14px;font-weight:600;margin-top:6px">Performance &amp; Sentiment Analysis</div><div style="font-size:13px;color:var(--ink-soft);margin-top:4px">Engagement · Sentiment · Feedback — informs future messaging, creators &amp; formats.</div></div>
+    </div>
+  </div>
+</section>
+<section class="slide divider t">
+  <div class="dtag">SMU · Day 1 — Section 2</div>
+  <div class="eyebrow">Hands-on</div>
+  <h1 class="d">Activity 3</h1>
+  <div class="dsub">Mini influencer campaign — a strategic planning workshop.</div>
+  <div class="dbn">A3</div>
+</section>
+<section class="slide qslide">
+  <div class="time">⏱ ~10 min</div>
+  <div class="kicker"><span class="dot"></span> Activity: Mini Influencer Campaign <span class="num">24</span></div>
+  <div class="rule"></div>
+  <h2 class="d">Strategic Planning Workshop</h2>
+  <div class="steps">
+    <div class="stp"><div class="sn">1</div><div class="st">Pick a Product or Service</div><div class="sd">Choose a real product from your business (or imagine a simple one for this exercise).</div></div>
+    <div class="stp"><div class="sn">2 · 3 mins</div><div class="st">Find 3 Influencers</div><div class="sd">On your phone, shortlist 3 profiles:</div><ul><li>Nano / Micro / Macro</li><li>Human or AI</li><li>Any social platform</li></ul></div>
+    <div class="stp"><div class="sn">3</div><div class="st">Apply Your Strategy</div><div class="sd">For each influencer, answer:</div><ul><li>Why them? Audience fit, trust, content style</li><li>What role? Storyteller vs Ambassador</li><li>What content? Natural fit, not forced</li></ul></div>
+    <div class="stp"><div class="sn">4</div><div class="st">AI Sense Check</div><ul><li>Would AI flag over-commercialisation?</li><li>Audience mismatch?</li><li>Tone or credibility issues?</li><li>Risk of forced/inauthentic content?</li></ul></div>
+  </div>
+  <div class="prompt"><b>Imagine asking AI:</b> "I'm considering this influencer. Based on their style &amp; audience, what potential risks or mismatches should I watch out for?"  ·  "Don't overthink it — first instincts are fine."</div>
+  <div class="reminder"><b>Key Reminder:</b> AI doesn't choose influencers for you. It helps you spot blind spots faster.</div>
+</section>
+<section class="slide divider">
+  <div class="dtag">SMU · Day 1 — Section 2</div>
+  <div class="eyebrow">Part 3 of 4</div>
+  <h1 class="d">Content Optimisation<br>for Different Platforms</h1>
+  <div class="dsub">One idea, many platforms — each with its own rules of reach and relevance.</div>
+  <div class="dbn">03</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Why Platform-Specific Content Optimisation Matters <span class="num">25</span></div>
+  <div class="rule"></div>
+  <div class="center">
+    <div style="background:var(--proof);color:#fff;border-radius:10px;padding:40px 44px">
+      <div style="font-size:26px;line-height:1.35">Every platform has its own audience behaviour, content format, and engagement expectations.</div>
+      <div style="font-size:24px;line-height:1.35;margin-top:22px">Optimising content ensures<br><span style="font-family:'Fraunces';font-size:46px;font-weight:600">reach, relevance, and performance.</span></div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Understanding Platform Audiences <span class="num">26</span></div>
+  <div class="rule"></div>
+  <div class="ptbl">
+    <div class="prow"><div class="pc"><img src="_assets/src/s107_7.png" alt="LinkedIn"></div><div class="pd2">Professionals, credibility-focused</div><div class="pb"><ul><li>Thought leadership, case studies, insights</li><li>Clear structure, professional tone</li><li>Value-first, avoid sales-heavy posts</li></ul></div></div>
+    <div class="prow"><div class="pc"><img src="_assets/src/s107_0.png" alt="Instagram"></div><div class="pd2">Visual-first, emotional connection</div><div class="pb"><ul><li>High-quality visuals, strong aesthetics</li><li>Short captions, clear CTAs</li><li>Use of reels, stories, carousels</li></ul></div></div>
+    <div class="prow"><div class="pc"><img src="_assets/src/s107_1.png" alt="TikTok"></div><div class="pd2">Fast, entertainment-driven, scroll-heavy</div><div class="pb"><ul><li>Hooks within 1–2 seconds</li><li>Authentic, informal, human-focused</li><li>Trends, voiceovers, fast captions</li></ul></div></div>
+    <div class="prow"><div class="pc"><img src="_assets/src/s107_2.png" alt="Facebook"></div><div class="pd2">Community-led, family-oriented</div><div class="pb"><ul><li>Community, events, relatable stories</li><li>Longer captions work here</li><li>Great for older demographic and niche groups</li></ul></div></div>
+    <div class="prow lab"><div class="pc"><div class="pcl">Website</div></div><div class="pd2">Trust-building, information-seeking</div></div>
+    <div class="prow lab"><div class="pc"><div class="pcl">Email / EDM</div></div><div class="pd2">Direct communication, conversion-driven</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Content Format Differences <span class="num">27</span></div>
+  <div class="rule"></div>
+  <div class="split">
+    <ul class="blist star" style="margin-top:26px">
+      <li>Long vs short form</li>
+      <li>Static vs video vs carousel</li>
+      <li>Search-driven vs feed-driven</li>
+      <li>Professional tone vs casual tone</li>
+    </ul>
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center">
+      <img class="illus" src="_assets/src/s132_0.png" alt="video clock" style="width:200px">
+      <div style="display:flex;gap:14px"><img class="illus" src="_assets/src/s132_1.png" alt="browser" style="width:150px"><img class="illus" src="_assets/src/s132_2.png" alt="analytics" style="width:150px"></div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Optimising Content for Website &amp; Blog <span class="num">28</span></div>
+  <div class="rule"></div>
+  <div class="duo">
+    <div class="pane a"><div class="pl">Website Content</div><ul style="margin-top:6px"><li>SEO-structured: headings, keywords, clarity</li><li>Trust indicators: testimonials, case studies</li><li>Scannable information architecture</li></ul></div>
+    <div class="pane g"><div class="pl">Blog Content</div><ul style="margin-top:6px"><li>Educational storytelling</li><li>Internal linking for navigation</li><li>Optimised titles &amp; meta descriptions</li></ul></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Optimising for Mobile &amp; Multi-Channel Experience <span class="num">29</span></div>
+  <div class="rule"></div>
+  <div class="split" style="grid-template-columns:.9fr 1.1fr">
+    <div>
+      <h2 class="d" style="font-size:32px">Mobile-First Considerations</h2>
+      <ul class="blist star" style="margin-top:16px">
+        <li>Short paragraphs</li>
+        <li>Clear hierarchy</li>
+        <li>Large text and buttons</li>
+        <li>Visual spacing for readability</li>
+      </ul>
+    </div>
+    <div style="display:flex;justify-content:center"><img src="_assets/src/s134_0.png" alt="Mobile-first / Task-first / Content-first infographic" style="max-height:520px;width:auto;border-radius:8px"></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Repurposing Content Effectively Across Platforms <span class="num">30</span></div>
+  <div class="rule"></div>
+  <div class="lead" style="margin-top:12px;color:var(--ink)">Transforming one core piece of content into multiple formats while adapting to platform needs.</div>
+  <div class="sub2" style="margin-top:18px">Example Flow</div>
+  <div class="chain">
+    <div class="cn k">1 blog post</div><span class="ca">→</span>
+    <div class="cn">LinkedIn article</div><span class="ca">→</span>
+    <div class="cn">Instagram carousel</div><span class="ca">→</span>
+    <div class="cn">TikTok explainer</div><span class="ca">→</span>
+    <div class="cn">Email newsletter tip</div><span class="ca">→</span>
+    <div class="cn">Website FAQ section</div><span class="ca">→</span>
+    <div class="cn">Short clips or quotes for social</div>
+  </div>
+  <div class="aibar">
+    <img src="_assets/src/s135_0.png" alt="AI">
+    <div>
+      <div class="at">AI can instantly:</div>
+      <ul><li>Rewrite tone</li><li>Shorten content</li><li>Reformat structure</li><li>Extract key insights</li></ul>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Using Data &amp; Metrics to Optimise Platform Content <span class="num">31</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:34px;margin-top:14px">Key Metrics by Platform</h2>
+  <div class="grid3 auto">
+    <div class="gcard"><div class="gh" style="font-size:18px">Engagement rate</div><div style="font-size:14px;color:var(--ink-soft);margin-top:5px">Likes, comments, shares</div></div>
+    <div class="gcard"><div class="gh" style="font-size:18px">Watch time</div><div style="font-size:14px;color:var(--ink-soft);margin-top:5px">Video</div></div>
+    <div class="gcard"><div class="gh" style="font-size:18px">Click-through rate</div><div style="font-size:14px;color:var(--ink-soft);margin-top:5px">CTAs</div></div>
+    <div class="gcard"><div class="gh" style="font-size:18px">Reach &amp; impressions</div></div>
+    <div class="gcard"><div class="gh" style="font-size:18px">Website bounce rate</div></div>
+    <div class="gcard"><div class="gh" style="font-size:18px">Email open &amp; click rates</div></div>
+  </div>
+  <div class="takeaway" style="font-size:22px">Track your <b>metrics</b>.</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Key Metrics to Track <span class="num">32</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Understanding Reach vs. Engagement vs. ROI</div>
+  <div class="cmp3">
+    <div class="cmpcol c1"><div class="chd">👁 Reach</div><div class="cmpbody">
+      <div class="cseg"><div class="sl">Definition</div><div style="font-size:13.5px;color:var(--ink-soft);line-height:1.3">Measures the total number of unique people who see your content. It reflects the extent of your content's visibility.</div></div>
+      <div class="cseg"><div class="sl">Primary Purpose</div><div class="pp">Drives Awareness</div></div>
+      <div class="cseg"><div class="sl">Key Metrics</div><ul><li>Impressions</li><li>Video Views</li><li>Unique Visitors</li><li>Follower Growth</li></ul></div>
+    </div></div>
+    <div class="cmpcol c2"><div class="chd">❤ Engagement</div><div class="cmpbody">
+      <div class="cseg"><div class="sl">Definition</div><div style="font-size:13.5px;color:var(--ink-soft);line-height:1.3">Measures how the audience interacts with content. It indicates how well content resonates.</div><div class="q" style="margin-top:6px">High engagement signals interest and increases organic visibility via algorithm prioritization.</div></div>
+      <div class="cseg"><div class="sl">Primary Purpose</div><div class="pp">Signals Resonance</div></div>
+      <div class="cseg"><div class="sl">Key Metrics</div><ul><li>Likes &amp; Comments</li><li>Shares &amp; Saves</li><li>Click-Through Rate (CTR)</li></ul></div>
+    </div></div>
+    <div class="cmpcol c3"><div class="chd">📈 ROI</div><div class="cmpbody">
+      <div class="cseg"><div class="sl">Definition</div><div style="font-size:13.5px;color:var(--ink-soft);line-height:1.3">Measures the tangible business impact of social media efforts relative to the cost.</div></div>
+      <div class="cseg"><div class="sl">Primary Purpose</div><div class="pp">Validates Results</div></div>
+      <div class="cseg"><div class="sl">Key Metrics</div><ul><li>Cost Per Acquisition (CPA)</li><li>Conversion Rate</li><li>Attributed Revenue</li><li>Customer Lifetime Value</li></ul></div>
+    </div></div>
+  </div>
+</section>
+<section class="slide divider t">
+  <div class="dtag">SMU · Day 1 — Section 2</div>
+  <div class="eyebrow">Hands-on</div>
+  <h1 class="d">Activity 4</h1>
+  <div class="dsub">Adapt one message across platforms — formats, objectives, metrics.</div>
+  <div class="dbn">A4</div>
+</section>
+<section class="slide qslide">
+  <div class="time">⏱ 20 minutes</div>
+  <div class="kicker"><span class="dot"></span> Activity 4 — Platform-Specific Content Plan <span class="num">33</span></div>
+  <div class="rule"></div>
+  <div class="goal"><b>Goal:</b> Create a Platform-Specific Content Plan Using Your AI Image. <b>Objective:</b> Learn to adapt one message across platforms with different formats, objectives, and success metrics. <span class="tools">Suggested tools — ChatGPT, Gemini, Grok</span></div>
+  <div class="steps">
+    <div class="stp"><div class="sn">Step 1</div><div class="st">Choose One Core Message</div><div class="sd">Pick a single message to communicate using your AI image (product promo, event, service, etc.).</div></div>
+    <div class="stp"><div class="sn">Step 2 · 1 min</div><div class="st">Select Three Platforms</div><div class="sd">Choose any three: LinkedIn, Instagram, TikTok, Facebook, Website, Email.</div></div>
+    <div class="stp"><div class="sn">Step 3 · 6–7 min</div><div class="st">Adapt for Each Platform</div><ul><li>Format (LinkedIn post, IG carousel, TikTok short)</li><li>Caption (rewrite in platform's style)</li><li>Objective (awareness, engagement, clicks, sign-ups)</li><li>Metric (engagement, CTR, watch time, saves)</li></ul></div>
+    <div class="stp"><div class="sn">Step 4</div><div class="st">Refine Using AI</div><div class="sd">"Improve my content plan based on platform best practices. Check caption tone, format, and metrics for relevance."</div></div>
+  </div>
+  <div class="prompt"><b>Prompt to try:</b> "Using the image I generated earlier, help me create a platform-specific content plan. Here is my core message: [insert 1-sentence message]. I want to adapt this for three platforms. For each, provide: Format · Caption rewritten to match the platform's tone &amp; audience · Objective · Success metric. Present the plan in a clear table with three rows, one per platform."</div>
+</section>
+<section class="slide divider t">
+  <div class="dtag">SMU · Day 1 — Section 2</div>
+  <div class="eyebrow">Pause</div>
+  <h1 class="d">Tea Break</h1>
+  <div class="dsub">Back shortly — refill, stretch, compare notes.</div>
+  <div class="dbn">☕</div>
+</section>
+<section class="slide divider">
+  <div class="dtag">SMU · Day 1 — Section 2</div>
+  <div class="eyebrow">Part 4 of 4</div>
+  <h1 class="d">Email Marketing</h1>
+  <div class="dsub">The one channel you actually own — right message, right person, right moment.</div>
+  <div class="dbn">04</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Why Email Marketing Still Works for SMEs <span class="num">34</span></div>
+  <div class="rule"></div>
+  <div class="duo">
+    <div class="pane a"><div class="pl">✉ What is Email Marketing?</div><div class="ph" style="font-size:22px">Direct communication with customers via email</div><div class="pd">Used for sales, updates, education, and relationship building.</div></div>
+    <div class="pane b"><div class="pl">Why It's Important</div><ul style="margin-top:6px"><li>One of the highest ROI marketing channels</li><li>You own your audience (not affected by algorithms)</li><li>Low cost, highly scalable</li><li>Very personal and targeted</li></ul></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Crafting Effective Emails: From Subject to CTA <span class="num">35</span></div>
+  <div class="rule"></div>
+  <div class="anat">
+    <div class="col">
+      <div class="lblk"><div class="lt">Subject Line</div><div class="ld">Grabs attention. Decides whether the email gets opened.</div></div>
+      <div class="lblk"><div class="lt">Header / Branding</div><div class="ld">Logo, brand colours, trust elements.</div></div>
+      <div class="lblk"><div class="lt">Call-To-Action (CTA)</div><div class="ld">Tells users what to do next. "Shop Now" · "Register Today" · "Download Free Guide"</div></div>
+    </div>
+    <div class="mock"><img src="_assets/src/s143_0.png" alt="Email anatomy"></div>
+    <div class="col r">
+      <div class="lblk"><div class="lt">Preview Text</div><div class="ld">Short supporting teaser under the subject.</div></div>
+      <div class="lblk"><div class="lt">Main Content</div><div class="ld">Message, story, offer, or update. Can be text, images, or video.</div></div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Email Marketing — Examples <span class="num">36</span></div>
+  <div class="rule"></div>
+  <div class="emails">
+    <img src="_assets/src/s144_2.png" alt="Email example 1">
+    <img src="_assets/src/s144_0.png" alt="Email example 2">
+    <img src="_assets/src/s144_1.png" alt="Email example 3">
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Email Marketing — Why? <span class="num">37</span></div>
+  <div class="rule"></div>
+  <div class="jrow">
+    <div>
+      <div class="copylead"><span class="mk">Email Marketing</span> is one of the best channels to connect with users at different life stages.</div>
+      <div class="tealbox">💡 Best practice is to align messages to users' life stages, delivering the right content at the right moment.</div>
+    </div>
+    <div class="jimg"><img src="_assets/src/s145_0.png" alt="The Email Customer Journey"></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Email Marketing — Deliverability &amp; Sender Reputation <span class="num">38</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Landing in the inbox, not the spam folder</div>
+  <div class="duo">
+    <div class="pane a">
+      <div class="pl">◆ 1 · Prove it's really you</div>
+      <div class="ph" style="font-size:22px">Authenticate your domain</div>
+      <ul style="margin-top:6px">
+        <li><b>SPF · DKIM · DMARC</b> — DNS records that prove the email truly came from you</li>
+        <li>Set up once, in your email tool — then forget it</li>
+        <li>Since 2024, Gmail &amp; Yahoo <b>require</b> them for bulk senders. No authentication → no inbox</li>
+      </ul>
+    </div>
+    <div class="pane g">
+      <div class="pl">● 2 · Keep a clean reputation</div>
+      <ul style="margin-top:6px">
+        <li>Keep spam complaints <b>under 0.3%</b> — the line Gmail &amp; Yahoo draw</li>
+        <li>Remove inactive &amp; bounced addresses — stop emailing people who never open</li>
+        <li>Use double opt-in · one-click unsubscribe (now required)</li>
+        <li>Warm up a new domain slowly; avoid image-only emails (a spam trigger)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="takeaway">A small, <b>engaged</b> list beats a big, cold one — every time. Reputation is earned one send at a time.</div>
+</section>
+
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Email Marketing — Let the Tool Do It <span class="num">39</span></div>
+  <div class="rule"></div>
+  <h2 class="d" style="font-size:34px;margin-top:8px">Most of this, your email tool does <em class="i">for you</em>.</h2>
+  <div class="lead" style="margin-top:8px;font-size:17px">You don't hand-edit DNS or scrub lists by hand. A proper platform — Mailchimp, Klaviyo, HubSpot, Brevo — handles the plumbing.</div>
+  <div class="grid3 auto">
+    <div class="gcard"><div class="gh">Auto-suppression</div><div style="font-size:14px;color:var(--ink-soft);margin-top:8px;line-height:1.35">Bounces, unsubscribes &amp; spam complaints are removed automatically — protecting your reputation.</div></div>
+    <div class="gcard"><div class="gh">Authentication setup</div><div style="font-size:14px;color:var(--ink-soft);margin-top:8px;line-height:1.35">Step-by-step SPF / DKIM / DMARC, so you stay compliant with Gmail &amp; Yahoo.</div></div>
+    <div class="gcard"><div class="gh">Sending infrastructure</div><div style="font-size:14px;color:var(--ink-soft);margin-top:8px;line-height:1.35">Managed servers &amp; IP reputation — you borrow theirs instead of building your own.</div></div>
+    <div class="gcard"><div class="gh">Engagement segmentation</div><div style="font-size:14px;color:var(--ink-soft);margin-top:8px;line-height:1.35">Sends less to disengaged contacts before they drag your reputation down.</div></div>
+    <div class="gcard"><div class="gh">Deliverability dashboard</div><div style="font-size:14px;color:var(--ink-soft);margin-top:8px;line-height:1.35">Inbox-placement &amp; reputation health you can actually see (esp. HubSpot, Klaviyo).</div></div>
+    <div class="gcard"><div class="gh">One-click unsubscribe</div><div style="font-size:14px;color:var(--ink-soft);margin-top:8px;line-height:1.35">Adds the unsubscribe header Gmail &amp; Yahoo now require — automatically.</div></div>
+  </div>
+  <div class="takeaway">Your job: a <b>clean list</b>, <b>relevant content</b>, and don't blast. The tool does the rest.</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Why Email Marketing Still Matters <span class="num">40</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Email Is Not a Broadcast Channel</div>
+  <div class="split">
+    <div>
+      <ul class="blist">
+        <li>Owned Channel — not rented like social platforms</li>
+        <li>Highly Measurable &amp; cost-efficient</li>
+        <li>Works best when targeted and behaviour-driven</li>
+      </ul>
+      <div style="margin-top:18px;font-family:'Fraunces';font-size:18px;font-weight:560;color:var(--proof)">◎ Best Channel For:</div>
+      <div style="display:flex;gap:10px;margin-top:10px">
+        <span style="background:var(--paper-2);border:1px solid var(--line);border-radius:999px;padding:6px 16px;font-size:15px">Activation</span>
+        <span style="background:var(--paper-2);border:1px solid var(--line);border-radius:999px;padding:6px 16px;font-size:15px">Retention</span>
+        <span style="background:var(--paper-2);border:1px solid var(--line);border-radius:999px;padding:6px 16px;font-size:15px">Churn Prevention</span>
+      </div>
+    </div>
+    <div class="insight"><div class="il">Common Mistake</div><div class="iq">"Most SMEs send the same email to everyone, treating it like a broadcast rather than a conversation."</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> What Is Email Workflow Automation? <span class="num">41</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Email Automation = Right Message, Right Time</div>
+  <div class="lead" style="margin-top:10px;color:var(--ink)">Email workflow automation sends emails based on user behaviour or lifecycle stage — not on a fixed calendar.</div>
+  <div style="font-family:'Fraunces';font-size:18px;font-weight:560;margin-top:18px">⚡ Examples of Triggers</div>
+  <div class="triggers">
+    <div class="trig"><div class="tl">Trigger</div><div class="tt">User signs up</div></div>
+    <div class="trig"><div class="tl">Trigger</div><div class="tt">User completes action</div></div>
+    <div class="trig"><div class="tl">Trigger</div><div class="tt">User goes inactive</div></div>
+    <div class="trig"><div class="tl">Trigger</div><div class="tt">User reaches milestone</div></div>
+    <div class="trig"><div class="tl">Trigger</div><div class="tt">User abandons journey</div></div>
+  </div>
+  <div class="takeaway">Automation removes <b>guesswork and manual work</b>.</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Why Automation Is Critical <span class="num">42</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Why Email Automation Drives Better ROI</div>
+  <div class="split">
+    <ul class="blist">
+      <li>Hyper-targeted communication tailored to specific user needs</li>
+      <li>Prevents churn before it happens by identifying inactivity early</li>
+      <li>Drives deeper product adoption through timely nudges</li>
+      <li>Scales personalisation without scaling manual effort</li>
+    </ul>
+    <div class="insight" style="background:#eef4f2;border-color:var(--proof)"><div class="il" style="color:var(--proof)">The Core Advantage</div><div class="iq">"Manual emails react late. Automated emails act early."</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Common Email Workflows Every Business Should Have <span class="num">43</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Foundational Email Flows Checklist</div>
+  <div class="moves">
+    <div class="move"><div class="mvn">1</div><div><div class="mvt">Welcome &amp; Onboarding</div></div></div>
+    <div class="move"><div class="mvn">2</div><div><div class="mvt">Activation &amp; Education</div></div></div>
+    <div class="move"><div class="mvn">3</div><div><div class="mvt">Engagement Nudges</div></div></div>
+    <div class="move"><div class="mvn">4</div><div><div class="mvt">Re-engagement / Churn Prevention</div></div></div>
+    <div class="move"><div class="mvn">5</div><div><div class="mvt">Milestone or Lifecycle-based Content</div></div></div>
+  </div>
+  <div class="takeaway">"You don't need dozens of flows — <b>just the right few</b>."</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Lifecycle Marketing Applied to Email <span class="num">44</span></div>
+  <div class="rule"></div>
+  <div class="sub2">From Campaign Emails to Lifecycle Journeys</div>
+  <div class="split">
+    <div class="insight" style="background:#eef4f2;border-color:var(--proof);align-self:center">
+      <div class="il" style="color:var(--proof)">Core Principle</div>
+      <div class="iq">"Different customers need different messages at different moments."</div>
+    </div>
+    <div>
+      <div style="font-family:'Fraunces';font-size:24px;font-weight:560;color:var(--proof);margin-bottom:8px">What Is Lifecycle Marketing?</div>
+      <ul class="blist">
+        <li>Understanding where your user is in their journey</li>
+        <li>Designing content that matches their current needs</li>
+        <li>Shifting from "What do we want to say?" to "What do they need right now?"</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Example — Lifecycle Email Journeys at Supermom <span class="num">45</span></div>
+  <div class="rule"></div>
+  <div class="split">
+    <div class="stages" style="grid-template-columns:1fr;margin-top:0">
+      <div class="stage"><div class="sn">Pregnant Moms</div><div class="sd">Preparation, reassurance, expert guidance</div></div>
+      <div class="stage"><div class="sn">Newborn Stage</div><div class="sd">Survival tips, emotional support, confidence-building</div></div>
+      <div class="stage"><div class="sn">Toddler Stage</div><div class="sd">Development milestones, behaviour insights</div></div>
+      <div class="stage"><div class="sn">Back to Work Post-Maternity</div><div class="sd">Time management, emotional support, identity shift</div></div>
+    </div>
+    <div class="insight" style="align-self:center">
+      <div style="font-family:'Fraunces';font-size:26px;font-weight:560;line-height:1.1">Same brand.<br>Completely different needs.</div>
+      <div class="iq" style="font-size:18px;margin-top:16px">"If we sent the same email to all these moms, it would feel irrelevant — or even insensitive."</div>
+    </div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> How Lifecycle Shapes Email Content Planning <span class="num">46</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Lifecycle Determines Content — Not Marketing Calendars</div>
+  <div class="split">
+    <div>
+      <div style="font-family:'Fraunces';font-size:20px;font-weight:560;color:var(--proof)">⇄ What Changes by Stage</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px">
+        <div class="auditcard" style="margin:0">Tone</div>
+        <div class="auditcard" style="margin:0">Frequency</div>
+        <div class="auditcard" style="margin:0">Content Depth</div>
+        <div class="auditcard" style="margin:0">Calls-to-Action (CTA)</div>
+      </div>
+    </div>
+    <div>
+      <div style="font-family:'Fraunces';font-size:20px;font-weight:560;color:var(--proof)">Strategic Shift Example</div>
+      <div class="stage" style="margin-top:12px"><div class="sn" style="font-size:17px">Early Stage — Education &amp; Reassurance</div><div class="sd">"Here is how we help you succeed…"</div></div>
+      <div style="text-align:center;color:var(--exec);margin:6px 0">↓</div>
+      <div class="stage"><div class="sn" style="font-size:17px">Later Stage — Activation &amp; Habit-Building</div><div class="sd">"Unlock this feature now…"</div></div>
+    </div>
+  </div>
+  <div class="takeaway" style="font-size:22px">"Relevance beats <b>frequency</b>."</div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Bringing Automation + Lifecycle Together <span class="num">47</span></div>
+  <div class="rule"></div>
+  <div class="sub2">Smart Email = Behaviour × Lifecycle</div>
+  <div class="formula">
+    <div class="fterm"><div class="fv">Trigger</div><div class="fq">What did user do?</div></div>
+    <div class="fop">+</div>
+    <div class="fterm"><div class="fv">Lifecycle</div><div class="fq">Where are they?</div></div>
+    <div class="fop">=</div>
+    <div class="fterm k"><div class="fv">Relevant Email</div><div class="fq">Right message</div></div>
+  </div>
+  <div style="font-family:'Fraunces';font-size:18px;font-weight:560;margin-top:26px">Practical Examples:</div>
+  <div class="grid2" style="margin-top:12px">
+    <div class="gcard"><div style="font-size:16px">🍼 Pregnant mom + Hasn't opened emails</div><div style="font-family:'Fraunces';font-weight:560;color:var(--proof);margin-top:6px">→ Send Reassurance Content</div></div>
+    <div class="gcard"><div style="font-size:16px">💼 Back-to-work mom + Clicks often</div><div style="font-family:'Fraunces';font-weight:560;color:var(--proof);margin-top:6px">→ Send Productivity Tips</div></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Common Mistakes SMEs Make with Email <span class="num">48</span></div>
+  <div class="rule"></div>
+  <div class="sub2">What to Avoid</div>
+  <div class="split">
+    <ul class="blist">
+      <li>Treating email like a newsletter blast</li>
+      <li>Over-emailing without delivering real value</li>
+      <li>Ignoring lifecycle differences among customers</li>
+      <li>Measuring opens instead of actual behaviour change</li>
+    </ul>
+    <div class="insight"><div class="il">Critical Reminder</div><div class="iq">"More emails ≠ better results."</div></div>
+  </div>
+</section>
+<section class="slide divider t">
+  <div class="dtag">SMU · Day 1 — Section 2</div>
+  <div class="eyebrow">Hands-on</div>
+  <h1 class="d">Activity 5</h1>
+  <div class="dsub">Create a welcome email that converts the first action.</div>
+  <div class="dbn">A5</div>
+</section>
+<section class="slide qslide">
+  <div class="time">⏱ 20 minutes</div>
+  <div class="kicker"><span class="dot"></span> Activity 5 — Welcome Email on Claude <span class="num">49</span></div>
+  <div class="rule"></div>
+  <div class="goal"><b>Goal:</b> Create a welcome email for your brand on Claude. <b>Objective:</b> Create an email that converts users' first action. <span class="tools">Suggested tools — ChatGPT, Gemini, Grok</span></div>
+  <div class="steps c2" style="grid-template-columns:1fr 1fr">
+    <div class="stp"><div class="sn">Step 1</div><div class="st">Open Claude &amp; use the prompt</div><div class="sd">Be sure to change the details in target audience and objective.</div></div>
+    <div class="stp"><div class="sn">Step 2</div><div class="st">Implement tweaks &amp; compare</div><div class="sd">Refine based on your preferences. Bonus: try on another AI and compare quality!</div></div>
+  </div>
+  <div class="prompt"><b>Prompt to try:</b> Create a complete welcome email (HTML design + copy) for new users with key actionable content above the fold to drive product activation.
+<b>Target Audience:</b> [Insert audience]   <b>Objective:</b> [Insert goal]   Context: New users who just signed up. Job to be done: Start using the product.
+<b>Deliverables:</b> Subject line (40-50 characters) · Preheader text · Welcome headline · Body copy (2-3 sentences) · Primary CTA button text · 1-2 key benefit statements · Full HTML email design (mobile-responsive). Tone: Welcoming, helpful, action-oriented.</div>
+</section>
+
+<!-- DAY 1 CAPSTONE CASE STUDY · HYROX -->
+<section class="slide">
+  <div class="kicker"><span class="dot"></span> Day 1 — Capstone Case Study · Discuss <span class="num">50</span></div>
+  <div class="rule"></div>
+  <div style="display:grid;grid-template-columns:.95fr 1.15fr;gap:26px;flex:1;margin-top:14px;align-items:stretch">
+    <div style="display:flex;flex-direction:column;border:1px solid var(--line-2);border-radius:9px;overflow:hidden;background:#fff">
+      <img src="_assets/hyrox-fitness.jpg" alt="A HYROX-style sled-push station" style="width:100%;height:212px;object-fit:cover">
+      <div style="padding:16px 22px;display:flex;flex-direction:column;gap:11px;flex:1">
+        <div style="font-family:'Fraunces';font-size:32px;font-weight:600;letter-spacing:.03em;line-height:1">HYROX</div>
+        <div style="font-size:14px;color:var(--ink-soft);line-height:1.35">A standardised fitness race — 8 × 1 km runs + 8 functional stations. Identical worldwide: <b style="color:var(--ink)">personal, measurable, shareable.</b></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:auto">
+          <div><div style="font-family:'Fraunces';font-size:21px;font-weight:600;color:var(--accent)">700 → 550k</div><div style="font-size:12px;color:var(--ink-soft)">athletes, 2017 → 2025</div></div>
+          <div><div style="font-family:'Fraunces';font-size:21px;font-weight:600;color:var(--accent)">$130M</div><div style="font-size:12px;color:var(--ink-soft)">revenue, 2025</div></div>
+          <div><div style="font-family:'Fraunces';font-size:21px;font-weight:600;color:var(--accent)">80+ · 30</div><div style="font-size:12px;color:var(--ink-soft)">races · countries</div></div>
+          <div><div style="font-family:'Fraunces';font-size:21px;font-weight:600;color:var(--accent)">390M+</div><div style="font-size:12px;color:var(--ink-soft)">#Hyrox TikTok views</div></div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column">
+      <h2 class="d" style="font-size:30px">Reverse-engineer HYROX.</h2>
+      <div class="lead" style="font-size:15px;margin-top:6px">You've got the whole framework now. In your groups, explain how a fitness race became a $130M brand:</div>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:14px;flex:1">
+        <div style="border:1px solid var(--line-2);border-left:4px solid var(--accent);border-radius:7px;padding:13px 18px;background:#fff">
+          <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)">1 · Create demand</div>
+          <div style="font-size:15.5px;margin-top:5px;line-height:1.3">What's their <b>positioning</b>? Their <b>brand</b>? What <b>job</b> is HYROX really hired to do?</div>
+        </div>
+        <div style="border:1px solid var(--line-2);border-left:4px solid var(--exec);border-radius:7px;padding:13px 18px;background:#fff">
+          <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--exec)">2 · Capture demand</div>
+          <div style="font-size:15.5px;margin-top:5px;line-height:1.3">What <b>channels</b> do they use to reach people — and which one is doing the heavy lifting?</div>
+        </div>
+        <div style="border:1px solid var(--line-2);border-left:4px solid var(--proof);border-radius:7px;padding:13px 18px;background:#fff">
+          <div style="font-family:'Spline Sans Mono';font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--proof)">3 · The growth loop</div>
+          <div style="font-size:15.5px;margin-top:5px;line-height:1.3">How do they <b>acquire → convert → keep → and turn athletes into advocates</b>?</div>
+        </div>
+      </div>
+      <div style="font-family:'Spline Sans Mono';font-size:13px;color:var(--ink-soft);margin-top:12px">⏱ 10 min in groups · then we map it together on the board</div>
+    </div>
+  </div>
+</section>
+</div>
+</body>
+</html>
