@@ -37,20 +37,20 @@
 ## Module 0 — What Marketing Actually Is
 
 **Slide 01 — Hook: "In one word, what is marketing?"**
-- **Ask the room, take answers, don't correct yet:** "In one word — what is marketing?" You'll get *ads, posting, branding, sales.* Put a few on the board. "Hold those — most are a *piece* of it, not the whole."
-- The hook's only job: surface the narrow definition so the next slide can widen it.
+- **Open cold — ask the room, take answers, correct nothing yet:** "Before a single slide — in one word, what is marketing?" Let them call it out and put a few up on the board; you'll get *ads, posting, branding, sales, promotion.* Don't judge any of them, just collect them. Then: "Hold every one of those. They're all real — but each one is a single *piece* of the job, not the whole thing. Give me one more slide and you'll have the whole thing in a single sentence."
+- **Why open this way, not just tell them:** the narrow answers are the *point* — you need them written up where everyone can see them, so the next slide can visibly *widen* the definition right in front of the room. The gap between what they shouted and what marketing actually is — that gap is the hook. Don't skip it and lecture; the contrast is what makes the real definition land.
 
 **Slide 02 — Marketing = create demand, then capture it**
-- **Say:** "Here's the whole job in one line: **create demand, then capture it** — getting the right people to choose you, again and again, at a profit. Most owners think marketing = ads or posting. It's bigger."
-- **Walk the five questions on screen** — the spine of the entire day: **Who for · Why you · The offer · Demand (how they find you) · Proof (did it work).** "Every module today answers one of these."
+- **Give them the whole job in one line:** "Here is marketing in one sentence, and everything we do today hangs off it: **create demand, then capture it** — getting the right people to choose you, again and again, at a profit. Look back at the board — see how much *bigger* that is than the words you just gave me. Ads and posting are only one way to *capture* demand that already exists. The harder, more valuable half is *creating* the want in the first place."
+- **Then walk the five questions — this is the spine of the entire day:** point at them one at a time — **Who is it for · Why you · The offer · Demand (how they find you) · Proof (did it work).** "Every module today is just one of these five, answered properly. Keep this picture in your head, because the moment we get lost in some tactic this afternoon, we come straight back here and ask: *which of the five am I actually working on?*" That sets up the next slide, where we crack that one sentence — create versus capture — wide open.
 
 **Slide 03 — Create demand vs capture demand (Red Bull / Google)**
-- **Contrast the two sides:** "**Create demand** — Red Bull makes events and stunts you *seek out*; you weren't looking for an energy drink, they made you want one. **Capture demand** — Google catches you the second you type 'buy running shoes'; it can't *create* the want, only catch it."
-- **The line that lands:** "Most small businesses only ever *capture* — then wonder why growth stalls. Nobody's creating the demand in the first place." *(Red Bull reel is clickable — play 10s if the room's cold.)*
+- **Split the sentence in two, a brand on each side:** "Take 'create demand, then capture it' and look at the two halves separately. **Create demand** is Red Bull — they throw events and pull stunts you actively *seek out*; nobody woke up needing an energy drink, Red Bull manufactured that want from nothing. **Capture demand** is Google — it catches you the *instant* you type 'buy running shoes.' Google can't make you want the shoes; it can only be standing there at the exact moment you already do."
+- **Now the line that should make them shift in their seats:** "Here's the trap nearly every small business walks into — they live *entirely* on the capture side. The Google ad, the website, the 'buy now' button — and then they wonder why growth quietly flattens. The reason is that nobody is *creating* demand upstream, so there's less and less left to capture. Sit with that, because the next slide shows you 'create demand' taken to its absolute extreme." *(Red Bull reel is clickable — play 10 seconds if the room is cold.)*
 
 **Slide 04 — Red Bull in the wild**
-- **Say:** "Red Bull sells cans by *making media* — an F1 team, the Stratos space jump, the Air Race. The drink is almost the by-product."
-- **Tie back:** "That's 'create demand' taken to the extreme. You don't need their budget — you need their *posture*: be worth seeking out."
+- **Pay off the Red Bull tease, fully:** "Look at how far this posture goes. Red Bull sells cans of a sugary drink by *making media* — they own an F1 team, they put a man on the edge of space and dropped him in the Stratos jump, they run the Air Race. Strip it back and Red Bull is essentially a media company that happens to fund itself by selling a drink. The can is almost the by-product of the content."
+- **Tie it back to them before we move on:** "That's create-demand at the extreme end — and no, you don't have a space-jump budget, and you don't need one. What you need is the *posture*. The question Red Bull answers that almost no owner ever asks is: *is there any reason for someone to seek us out when they're not yet ready to buy?* Hold that question, because the rest of the morning is about earning a 'yes' to it — and it starts with the very first of our five questions: knowing exactly who you're for."
 
 ## Module 1 — Customer & Market (Jobs to be Done)
 
@@ -62,13 +62,14 @@
 - **Say, pointing at the template:** "And you don't have to invent the method — this is the standard Jobs-to-be-Done canvas, the exact one professional product teams use to work out what their customers are really hiring them for. What it forces you to do is write the job down as one plain sentence in the *customer's* words, not yours. The link is live, grab it later — the reason I'm showing it now is just so you see this is a real, repeatable worksheet, not a vibe."
 - **Hand off to the next slide:** "A blank canvas can be intimidating, though — so let me hand you the five questions that actually fill it in." *(Miro link clickable.)*
 
-**Slide 07 — The Use Case Map (Reforge)**
-- **Walk the five, slowly:** "These five questions turn a vague 'job' into a map you can actually act on. **The problem** they're trying to solve. **The persona** — who specifically has it. **The alternatives** — what they'd reach for instead of you. **The frequency** — how often the job even comes up. And **the why** — the deeper reason it matters to them. This framing is from Reforge."
-- **The one they skip — and why it's expensive:** "Now watch the one every owner races past: *alternatives*. They'll lovingly describe their customer and the problem, then completely forget to ask what that person would do *instead* of buying from them. And that blank is almost always where the real competitor is hiding — and nine times out of ten it isn't another company, it's a spreadsheet, a DIY workaround, or simply doing nothing. Keep that idea warm — in two slides, a milkshake is going to prove it."
+**Slide 07 — Identify the job: the drill** *(you-identify it, live)*
+- **Set it up as a live identification, don't lecture it:** "Here's the same five-question map — Reforge's Use Case Map — but this time I'm *not* filling it in for you. Someone just walked out of the shop with a power drill. *Identify the job.* Shout it out with me as we go: **the problem** they're trying to solve, **the persona** — who specifically has it, **the alternatives** — what they'd reach for instead, **the frequency** — how often the job even comes up, and **the why** — the deeper reason it actually matters to them."
+- **The box they'll skip — and why it's the expensive one:** "Watch the one every owner races past: *alternatives.* They'll lovingly describe the customer and the problem, then completely forget to ask what that person would do *instead* of buying the thing. And that blank is almost always where the real competitor is hiding — nine times out of ten it isn't another drill, it's a borrowed one, a handyman, a YouTube-and-hammer bodge, or simply leaving the shelf in the box. Get the room to argue about that box, then turn the slide — in two slides a milkshake proves exactly why it matters."
 
-**Slide 08 — Functional / Emotional / Social**
-- **Explain the three layers with the drill:** "Those questions surface the job — but here's what they won't tell you on their own: a job is almost never *only* practical. Take a cheap power drill. The **functional** job is the obvious one — a clean hole in the wall. But sitting underneath is an **emotional** job: feeling capable and in control instead of frustrated on a Saturday afternoon. And stacked on top is a **social** job: being seen — by your partner, your neighbour — as the kind of person who can just handle things. Same drill, three jobs layered on top of each other."
-- **Why this is worth money, not just interesting:** "This matters because the moment you can see all three layers, you finally know everything you're *really* up against. The drill isn't only competing with other drills — it's competing with a YouTube tutorial, the handyman down the road, and the little voice that says 'eh, leave it for now.' Name the emotional and social jobs and you can speak to them directly in your marketing — which is something a spec sheet can never do for you."
+**Slide 08 — The same map, filled in (the answer)**
+- **Reveal it, and land the JTBD punch:** "Here's that same map with the answers written in — and the whole point is sitting in that handwritten note: *nobody wakes up wanting a drill.* What they're really hiring is **the hole → the shelf on the wall → the quiet 'I did that myself.'** The drill is just the cheapest thing that gets them there. That's Jobs-to-be-Done in one picture — people don't *buy* products, they *hire* them to make progress."
+- **Fold the three layers into the 'Why' box — don't lose it:** "Look hard at that last box, *Why*, because a real job is almost never *only* practical. There's the **functional** layer — a clean hole in the wall. Sitting underneath it, an **emotional** layer — feeling capable and in control instead of defeated on a Saturday afternoon. And stacked on top, a **social** layer — being seen, by your partner or your neighbour, as someone who just handles things. Same drill, three jobs layered on top of each other. Name the emotional and social ones and you can speak to them directly — which a spec sheet can never do for you."
+- **Why it's worth money, then hand off:** "And notice what the *alternatives* box just did to your competition: the drill isn't only up against other drills, it's up against the handyman, the YouTube tutorial, and the little voice that says 'eh, leave it for now.' Know the job, and you finally know what you're *really* competing against. Hold all of it — the job, the alternatives, the emotional layer — because the next slide pours the whole lot into one story you'll never forget: a milkshake."
 
 **Slide 09 — The Milkshake (worked example)**
 - **Tell the story, take your time:** "Now let me pour all of it — the job, the alternatives, the emotional layer — into one story you'll never forget. McDonald's spent years trying to sell more milkshakes the obvious way: new flavours, tweak the price, ask customers what they wanted. Nothing moved. Then a researcher asked a completely different question — not 'how do we improve the milkshake' but *'what job are people actually hiring this milkshake to do?'* So they watched, and a strange pattern jumped out: a huge share were bought early in the morning, by people on their own, taken to go. The job? Get through a long, boring, one-handed commute. And the milkshake turns out to be *perfect* for it — it's thick, so it lasts the whole drive; you can hold it in one hand on the wheel; and it's filling enough to kill the hunger till lunch."
@@ -81,80 +82,87 @@
 ## Module 2 — Positioning & Brand
 
 **Slide 11 — Position ≠ Brand (Volvo)**
-- **Define both, using the Volvo orbit on screen:** "**Position** = the one idea you own in a mind. **Brand** = everything that gathers around it. Volvo's position is **safety**; Swedish engineering, built-to-last, family-first all orbit that one word."
-- **Spine tie:** "Position is this morning's *why you*, boiled down to a single word you can own."
+- **Tie back to the spine, then introduce the pair:** "We've just worked out *who* it's for and the *job* they're hiring you to do. The very next of our five questions was *why you?* — and that's this whole module. But before we can answer it, we have to pull apart two words owners use as if they're the same thing: **position** and **brand.** **Position** is the *one idea you own* in someone's head. **Brand** is *everything that gathers around* that idea."
+- **Make it concrete with the Volvo orbit on screen:** "Volvo's position is a single word — **safety.** That is the idea they own outright. Everything else you picture when I say Volvo — Swedish engineering, boxy and built-to-last, the dependable family car — all of it *orbits* that one word. *That* is the brand: the whole constellation around the position. And the order matters enormously — you *choose* the position first, and the brand accumulates around it over time. Put simply: position is this morning's *why you*, boiled all the way down to one word you can actually own."
 
 **Slide 12 — Positioning is earned, not announced**
-- **Say:** "Positioning is the *input* — the choice of how you want to be seen versus the alternatives. But Volvo didn't *say* 'we're safe.' In 1959 it invented the three-point seatbelt and **gave the patent away free** to every carmaker. It proved the position with a *decision*."
-- **The line:** "Claims invite doubt. Proof lets people convince themselves."
+- **Make the key distinction — input versus proof:** "Here's the part owners get backwards. Positioning is an *input* — it's your *choice* of how you want to be seen against the alternatives. But you don't get to simply *declare* it true. Volvo never ran an ad shouting 'we are safe.' In 1959 they invented the modern three-point seatbelt — and then **gave the patent away, free, to every other carmaker on earth.** They could have hoarded it and made a fortune. Instead they *proved* the position with a decision that cost them money."
+- **The line to land it:** "That's the whole lesson in one sentence: **claims invite doubt; proof lets people convince themselves.** Anyone can *say* they're the safe choice — and the instant they say it, the customer's guard goes up. Volvo *behaved* safe and let everyone draw the obvious conclusion for themselves. Keep that contrast hot, because the next slide is the cautionary tale of a brand that tried to do the exact opposite."
 
 **Slide 13 — Cautionary case: Oldsmobile** *(point at the car on the slide)*
-- **Say:** "The flip side. Brand is the *output* that compounds — the meanings that end up in people's heads. In 1988 Oldsmobile ran **'This is not your father's Oldsmobile'** — celebrities and their kids, chasing young buyers. But it was the same boxy car, same showroom. **Nothing changed but the words** — so it insulted the loyal older buyers and never won the young ones."
-- **The lesson:** "You can't *say* your way out of what you are."
+- **Flip to the failure — and name what 'brand' really is:** "If positioning is the input you choose, then *brand* is the **output that compounds** — the meanings that actually end up lodged in people's heads over time, whether you intended them or not. Point at the car: by 1988 Oldsmobile was stuck with an old, boxy image, so they ran a campaign called **'This is not your father's Oldsmobile'** — celebrities, their cool kids, the whole thing chasing a younger buyer."
+- **Land the lesson:** "But here is the only thing they actually changed: *the words.* Same boxy car, same showroom, same everything — just a new slogan bolted on top. So it backfired twice over — it *insulted* the loyal older buyers who'd been with them for years, and the young buyers took one look at the real car and didn't believe a syllable of it. Write this one down: **you cannot *say* your way out of what you actually are.** Which raises the obvious question — so how *do* you build a brand honestly? That's the next slide."
 
 **Slide 14 — How a brand gets built: three layers**
-- **Walk the layers:** "**Decide** what you stand for (Nike: victory for every body; Lululemon: the 'sweatlife'; Love, Bonito: fashion for the Asian woman's body). **Express** it as a story with the customer as hero and you as the guide. **Prove** it through what you actually do. Each layer feeds the next."
+- **Walk the three-layer build, in order:** "Building a brand honestly is three moves, and the sequence is the point. **Decide** what you genuinely stand for — Nike: victory for every body; Lululemon: the 'sweatlife'; Love, Bonito: fashion built for the Asian woman's body. **Express** it as a story where the *customer* is the hero and you are merely the guide who helps them win. And **prove** it through what you actually do — the Volvo-seatbelt move, repeated."
+- **Show why the order can't be skipped:** "Each layer feeds the one after it: you can't express what you haven't decided, and you can't prove a story you've never told. And here's the trap — most owners jump straight to *express*, agonising over a logo and a tagline, while skipping *decide* and *prove* entirely. That's *exactly* why their brand feels hollow and forgettable. So that's how you build it once. The next slide is the part you *repeat*, week after week, to actually grow it."
 
 **Slide 15 — What a brand marketer does: four moves**
-- **Say:** "Building it was the last slide; this is what you *repeat* to grow it — Byron Sharp's *How Brands Grow.* **1 Own your position** (keep proving it). **2 Be impossible to forget** — same look, name, message for years. **3 Show up at the buying moment** — mental availability. **4 Be everywhere your buyers are** — physical/category availability."
-- Keep this brisk — it's the bridge from building a brand into the daily job of growing one.
+- **Shift from building to growing:** "That last slide built the brand; this slide is the daily, unglamorous job of *growing* it — and this isn't my opinion, it's straight out of Byron Sharp's *How Brands Grow*, the most evidence-backed book in the field. Four moves you keep repeating. **One — own your position:** keep proving the one idea, and don't get bored of it before your customers have even noticed it. **Two — be impossible to forget:** same look, same name, same message, for *years*, long past the point you personally are sick of it."
+- **Finish the four, then bridge:** "**Three — show up at the buying moment:** what Sharp calls mental availability — be the brand that springs to mind the second the need appears. **Four — be everywhere your buyers already are:** physical and category availability; easy to find, easy to buy. Keep this one brisk on purpose — it's the *bridge* slide. We've now got who it's for, why you, and the brand that surrounds it. The next question on the spine is the **offer** — the actual thing they say yes or no to."
 
 ## Module 3 — The Offer
 
 **Slide 16 — Your offer = product + price + packaging**
-- **Say:** "The offer is everything the customer weighs *before* buying — the product, the price, and how it's bundled, guaranteed, delivered. Change any one and you change their decision."
-- **Point at the canvas:** "It's the Value Proposition Canvas — match your **product / pain-relievers / gain-creators** to their **jobs / pains / gains.**"
+- **Tie back, then define the offer:** "We've got the position and the brand sorted — but none of that closes a single sale on its own. What the customer *actually* weighs in the moment of deciding is the **offer.** And the offer is far more than the product: it's the **product *plus* the price *plus* the packaging** — how it's bundled, guaranteed, delivered, financed. Change any *one* of those three and you've changed the customer's decision, without laying a finger on the product itself."
+- **Point at the Value Proposition Canvas:** "The tool on screen is the Value Proposition Canvas, and it does exactly one job: it forces you to line up what *you* put out — your **product, your pain-relievers, your gain-creators** — against what *they* actually want — their **jobs, pains, and gains** from this morning. When those two halves genuinely match, you have an offer. When they don't, you have a product nobody asked for and a marketing budget about to be wasted. Next slide — two brands that won on the *offer* alone, barely touching the product."
 
 **Slide 17 — Example: IKEA & Dollar Shave Club**
-- **Say:** "**IKEA** — same chair, lower price; the *offer* is the strategy. **Dollar Shave Club** — $1/month, blades to your door; the offer built the brand before a cent on ads."
-- **The diagnostic line:** "When marketing isn't working, the *offer* is often the real problem — not the ads."
+- **Walk both examples fully:** "Two businesses that changed almost nothing about the product and won entirely on the offer. **IKEA** — it is the *same* chair as the expensive furniture shop, but flat-packed, self-assembled, cash-and-carry, drive-it-home-today — and *that offer*, not the chair, is the entire strategy. **Dollar Shave Club** — the razor itself was completely ordinary; the offer was the magic: **a dollar a month, blades posted to your door, cancel anytime.** That offer built the whole brand before they'd spent a cent on real advertising."
+- **The diagnostic line to keep:** "So here's the line to carry out of this module: **when your marketing isn't working, the *offer* is very often the real problem — not the ads.** Owners pour money into more and louder ads for an offer nobody actually wants, when a single change to the price or the packaging would have fixed the whole thing. Hold onto that — because now we move to how people actually *find* the offer in the first place: demand and channels."
 
 ## Module 4 — Demand & Channels
 
 **Slide 18 — Match the message to the intent**
-- **Say:** "Channels aren't good or bad — they match a *stage of intent.* **See** (widest, no intent: social, video, PR) → **Think** (considering: SEO/AEO, content, email) → **Do** (ready to buy: search ads, product pages) → **Care** (existing customers: email, loyalty, referral)."
-- Keep this four-stage picture on the board all afternoon — it's the spine made practical.
+- **Tie back, then reframe what a channel even is:** "We've now got an offer worth choosing — so *how do people find it?* First, let me kill a myth that wastes more money than any other: there is no such thing as a good channel or a bad channel. A channel is only right or wrong for a *stage of intent* — how ready the person actually is to buy. Walk the four on screen: **See** — the widest audience, zero intent (social, video, PR; they're not looking for you at all yet). **Think** — they've got the problem and are weighing options (SEO and AEO, content, email). **Do** — ready to buy *right now* (search ads, a sharp product page). **Care** — they've already bought (email, loyalty, referral)."
+- **Make it the working tool for the whole afternoon:** "Keep this four-stage picture on the board all afternoon, because it's simply this morning's spine in work clothes — **See / Think / Do / Care** *is* create → capture → convert → keep. The classic mistake to watch for in your own business: pouring everything into one stage while starving the rest. Next slide — two brands that picked their stage with real deliberation, and got opposite-looking answers."
 
 **Slide 19 — Example: DSC spike vs HubSpot habit**
-- **Contrast:** "**Dollar Shave Club** — one $4,500 launch video, 12,000 sign-ups in 48 hours: a *spike*. **HubSpot** — software bought once every few years, so they built a *content habit* to stay top-of-mind through the long wait. Find the stage you're missing, then build *one* channel that keeps paying off."
+- **Contrast spike versus habit, and say why both are right:** "Two completely different channel strategies, and *both* are correct — because the two businesses sit at different stages. **Dollar Shave Club** launched with *one* video that cost about $4,500 and pulled **12,000 sign-ups in 48 hours** — a deliberate *spike*, all about acquisition at the 'See' stage. **HubSpot** sells software you buy maybe once every few years, so a spike does almost nothing for them; instead they built a relentless **content habit** to stay top-of-mind across that long gap, so they're the name you remember the day you finally *are* ready to buy."
+- **The takeaway that sets up the game:** "So stop asking 'what's the best channel' — ask *which stage am I missing*, then build **one** channel that keeps paying off there. Next, we test whether you can actually *read* the stage in the wild — four real campaigns, and you call the objective."
 
 **Slide 20–23 — Campaign teardown: guess the objective** *(we do — run it as a quick game)*
-- **Format:** "Four real campaigns. Before I reveal it — shout out the *objective*. No trick answers; each maps to a stage of the spine."
-- **20 · Dollar Shave Club → Acquisition (a launch).** One $4,500 video, 12k sign-ups in 48h, built the whole brand before traditional ads.
-- **21 · Novastacks (our own) → Discovery / new-customer awareness.** Search "best AEO agency Singapore" and Google's AI Overview names us first — customers discover us *inside the AI's answer*, not by scrolling ten blue links. "That's AEO — and it's exactly what this course also teaches you to do."
-- **22 · Amazon 1-Click + Prime → Conversion (+ retention).** 1-click makes buying effortless; Prime makes leaving costly.
-- **23 · Spotify Wrapped → Retention & Advocacy.** Each user's own data becomes a shareable story — free reach that pulls new users in every December.
+- **Run it as a game — set the one rule first:** "Four real campaigns coming up. Before I reveal what each one was actually *for*, I want you to shout out the **objective** — and there are no trick answers here, every single one maps cleanly onto a stage of the spine you've now got on the board. Fight the urge to yell 'sales' at everything; look at what the campaign is genuinely *doing*."
+- **20 · Dollar Shave Club → Acquisition (a launch).** "That same $4,500 video, 12k sign-ups in 48 hours — pure top-of-funnel acquisition; it built the entire brand before they touched traditional advertising."
+- **21 · Novastacks (our own) → Discovery / new-customer awareness.** "Search 'best AEO agency Singapore' and Google's AI Overview names *us* first — the customer discovers us *inside the AI's answer*, not by scrolling ten blue links. That's AEO, and it happens to be exactly the thing this course is also teaching you to do."
+- **22 · Amazon 1-Click + Prime → Conversion (then retention).** "1-Click strips every gram of friction out of *buying* — that's conversion. Prime then makes *leaving* expensive — that's retention. Two different jobs, one ecosystem."
+- **23 · Spotify Wrapped → Retention & Advocacy.** "Each user's own listening data becomes a story they actually *want* to share — so retention and free word-of-mouth reach happen in the very same move, every December. Land it for the room: same spine, four different stages — the whole skill is naming *which* one you're looking at."
 
 **Slide 24 — Your turn (discuss)** *(you do — ~11 min)*
-- **Set up:** "Where's the *gap* in how customers find you? Map your channels onto **See / Think / Do / Care** — most owners sit only at 'Do.' Pick **one** channel to build first." **8 min · 3 min to share.**
+- **Set it up, then step back:** "Your turn, and this is the one that usually stings a little. Map *your* channels honestly onto **See / Think / Do / Care.** What almost every owner discovers is that they're parked entirely down at **'Do'** — the 'buy now', the bottom-of-funnel ad — with nothing creating demand higher up, which is *exactly* why marketing feels like a grind for them. Find the *gap* — the stage where customers should be meeting you and simply aren't — and pick **one** channel to build there first."
+- **Timing and debrief:** "**8 minutes on your own, then 3 to share.** I'll take the ones where the gap turned out not to be where you expected it."
 
 ## Module 5 — Conversion & Retention
 
 **Slide 25 — Convert, then keep**
-- **Say:** "Demand's useless if it leaks. **Convert** — remove friction so an interested person actually buys. **Keep** — build the habit: trigger → action → reward, repeated. **Advocate** — happy customers bring the next ones in at low cost."
+- **Tie back, then name the two jobs:** "You've created demand and built a channel to capture it — but demand is worthless if it leaks straight back out the bottom, and most businesses leak badly right here. Two jobs to do about it. **Convert** — strip out the friction so an *interested* person can actually become a *buyer* without giving up halfway. **Keep** — build the habit that brings them back: a simple loop of **trigger → action → reward**, run over and over until returning is automatic."
+- **Add the third one quietly:** "And there's a third job hiding behind those two — **advocate** — where a genuinely happy customer hands you the *next* customer at almost no cost. Hold that, because it's where the cheapest growth in your entire business is sitting. Next slide, the two brands that are practically textbooks for this."
 
 **Slide 26 — Example: Amazon & Spotify**
-- **Say:** "**Amazon** — 1-click converts, Prime retains. **Spotify Wrapped** — retains *and* advocates in one move: a shareable yearly moment that keeps users and pulls new ones in. Removing friction and giving a reason to return usually beats a bigger ad budget."
+- **Walk both, cleanly split:** "**Amazon** is the clearest example you'll ever see: **1-Click is pure conversion** — buying reduced to a single tap — and **Prime is pure retention** — once you're already paying for it, why on earth would you shop anywhere else? **Spotify Wrapped** pulls off something rarer — it **retains *and* advocates in one move**: a personal, shareable, once-a-year moment that keeps your existing users *and* drags new ones in through everybody's social feeds."
+- **The takeaway:** "Now notice what neither of these is — *neither one is a bigger ad budget.* **Removing friction and giving people a real reason to come back beats spending more on acquisition almost every time** — because you're plugging the leak instead of just pouring more in at the top. Next, the uncomfortable part owners tend to avoid: where exactly *do* you leak?"
 
 **Slide 27 — Your turn (discuss)** *(you do — ~10 min)*
-- **Set up:** "Where do you *lose* people, and why don't they come back? Walk your own buying process, name **one** point of friction to remove this week, and **one** reason to give them to return." **7 min · 3 min to share.**
+- **Set it up, and make it honest:** "Your turn, and I want you uncomfortable about this one: walk your *own* buying process the way a customer actually experiences it, not the way you wish it worked. Where do you genuinely *lose* people — the form that's too long, the reply that takes three days, the checkout that demands they create an account first? Then the harder half — once they *have* bought, why don't they come back?"
+- **The ask and timing:** "Name **one** point of friction you'll remove *this week*, and **one** concrete reason to give people to return. **7 minutes on your own, then 3 to share.**"
 
 ## Module 6 — Measurement & Growth
 
 **Slide 28 — Input. Output. Outcome.**
-- **Say:** "Every marketing number is one of three things: **Input** (what you put in — budget, content, time), **Output** (how efficiently it ran — impressions, CTR, CPC, CAC, ROAS), **Outcome** (what the *business* got — customers, revenue, growth)."
-- **The trap:** "Most owners confuse the middle for the last. Outputs *feel* good; outcomes pay rent."
+- **Tie back, then give them the three buckets:** "Last question on the spine — *did it work?* And to answer that without quietly fooling yourself, you need to know that every marketing number you will ever look at sorts into exactly three buckets. **Input** — what you *put in*: budget, content, hours. **Output** — how *efficiently* the machine ran: impressions, click-through rate, cost-per-click, CAC, ROAS. **Outcome** — what the *business* actually got out the other end: customers, revenue, growth."
+- **Name the trap out loud:** "Here is precisely where owners lose money: they mistake the *middle* bucket for the last one. Outputs are seductive — a gorgeous click-through rate genuinely *feels* like success. But say it plainly to the room: **outputs feel good; outcomes pay rent.** A campaign can post beautiful outputs and deliver zero actual customers. Next slide — why chasing the wrong number doesn't just waste money, it actively warps the whole business."
 
 **Slide 29 — What you measure is what you chase (Goodhart's Law)**
-- **Say:** "Measurement steers strategy — chase the wrong number and you optimise toward the wrong business. **Goodhart's Law: when a measure becomes a target, it stops being a good measure.** Reward leads → a CRM full of junk. Chase impressions → reach that never buys."
-- **Sort them live:** "**Vanity** (look impressive, guide nothing): impressions, likes, followers, open rate, 'we went viral.' **Actionable** (tie to a decision): conversion rate, CAC, LTV:CAC, repeat purchase."
+- **Introduce Goodhart with the consequence attached:** "Measurement doesn't merely *record* your strategy — it *steers* it, because people will optimise toward whatever number you put up on the dashboard. There's a law for this — **Goodhart's Law: when a measure becomes a target, it stops being a good measure.** Tell the team to maximise *leads* and you'll get a CRM stuffed with junk leads nobody can close. Tell them to chase *impressions* and you'll get enormous reach that never buys a single thing."
+- **Sort them live with the room:** "So sort your metrics into two piles, out loud. **Vanity** — they look impressive but guide no decision: impressions, likes, followers, open rate, 'we went viral.' **Actionable** — they tie straight to a decision: conversion rate, CAC, the LTV-to-CAC ratio, repeat-purchase rate. And here's the one-line test for any number: *if it went up, would you actually do anything differently?* If the answer is no, it's vanity. Next slide — the handful of numbers that genuinely matter, in one simple example."
 
 **Slide 30 — Example: a healthy 4:1**
-- **Say:** "Spend **$200** to win a customer worth **$800** — a healthy **4:1**. Then check two things: how long until you earn the $200 back, and which stage leaks most. You don't need perfect data — know your **CAC**, your **LTV**, and your **biggest leak.**"
+- **Walk the 4:1 example:** "Let me strip this down to the only sum most owners actually need. You spend **$200** to win a customer, and that customer turns out to be worth **$800** to you over their lifetime — that's a healthy **4-to-1** return. Once you know that single ratio, you check just two more things: *how long* until you've earned that $200 back — your payback period — and *which stage* of the spine is leaking the most."
+- **The reassurance to leave them with:** "And notice — you do *not* need a data team or perfect tracking for any of this. You need three honest numbers: your **CAC** (what it costs to win a customer), your **LTV** (what that customer is worth), and your **biggest leak.** Get those three and you can steer the business properly. That's the whole of measurement — which means you now hold every piece of the morning, and the very next slide turns all of it into one diagnostic you'll keep using for years."
 
 **Slide 31 — Activity 2: Diagnose your leak** *(you do — ~12 min)*
-- **Set up the diagnostic:** "Four places it leaks — **Demand** (no one finds you → fix channels), **Positioning** (they find you but don't get *why you* → fix the message), **Conversion** (interested but don't buy → fix the offer), **Retention** (buy once then leave → fix the experience)."
-- **The rule that matters:** "Fix the **earliest serious leak first** — it's rarely the loudest one. This is the whole morning turned into a tool you'll keep using."
+- **Set up the diagnostic — this is the morning, weaponised:** "This is the payoff of the entire morning, so don't rush it. There are only *four* places a business leaks, and each one points at a different fix. **Demand** — no one finds you → fix your *channels.* **Positioning** — they find you but don't get *why you* → fix the *message.* **Conversion** — they're interested but don't buy → fix the *offer.* **Retention** — they buy once and then vanish → fix the *experience.*"
+- **The rule that makes it actually work:** "And here's the rule that matters more than any other: **fix the *earliest* serious leak first — it is almost never the loudest one.** Owners obsess over the leak that's *annoying* them right now, while the real damage is sitting further upstream, quietly starving everything below it. Find your earliest serious leak, name the fix, and you don't walk out of here with notes — you walk out with a tool you'll run on your business every single quarter."
 
 ---
 
@@ -232,10 +240,6 @@
 - **Say:** "Five honest checks before you commit — purpose, audience, capability, governance, measurement. The killer is *capability*: can you post consistently for a year? If not, do *one* channel well, not three badly."
 - Frame as a gut-check, not a quiz — read the five headers, let it sit.
 
-**Slide 17 — What success looks like on social**
-- **Say:** "Social mostly does awareness, trust, consideration, retention. Notice what's at the bottom: **conversion is supportive, not primary.** Don't judge a brand post by direct sales — that's email's job. Judge it by whether the right people remember you."
-- **Spine tie:** this is *See / Think*, not *Do*.
-
 ---
 
 ## Block 2 — Influencers & UGC
@@ -302,14 +306,11 @@
 **Slide 33 — Website & blog**
 - **Say:** "Your website is the one room *you* own, where people come to be convinced — structure it for SEO and trust (testimonials, case studies). Blog earns the search traffic." (Callback to Section 1 *Do* stage.)
 
-**Slide 34 — Mobile-first**
-- **Say:** "Almost everyone meets your content on a phone, one thumb, half-distracted. Short paragraphs, big buttons, clear hierarchy. If it's hard to read on mobile, it doesn't exist."
-
 **Slide 35 — Repurposing content across platforms** ← *money slide of the block*
 - **Say:** "Write *one* strong piece — a blog post — then spin it into a LinkedIn article, an IG carousel, a TikTok, an email tip, a website FAQ. One idea, seven assets. AI does the re-cutting in seconds." Work smart, not more.
 
-**Slide 36–37 — Metrics / Reach vs Engagement vs ROI**
-- **Say:** "Track what each platform actually rewards. And separate three things people confuse: **Reach** (did people see it — awareness), **Engagement** (did it resonate — interest), **ROI** (did it make money — results). Vanity metrics feel good; ROI pays rent."
+**Slide 37 — Reach vs Engagement vs ROI**
+- **Say:** "Separate the three things people constantly confuse: **Reach** (did people see it — awareness), **Engagement** (did it resonate — interest), **ROI** (did it make money — results). Vanity metrics feel good; ROI pays rent."
 - **Spine tie:** Reach = See, Engagement = Think, ROI = Do.
 
 **Slide 38 — Activity 4: Platform-Specific Content Plan** *(you do — 20 min)*
@@ -391,7 +392,7 @@
 
 **Format:** questions on screen first. Groups discuss ~10 min, then you map their answers on the board against the day's spine (**create demand → capture → convert → keep → advocate**). The point: HYROX quietly does *the entire day* — it's the whole framework in one brand.
 
-**Set it up:** "Last thing today. A fitness race nobody had heard of in 2017 is now a $130M brand with half a million athletes. You now have every tool to explain *why*. Don't guess — use the framework."
+**Set it up — and tie it straight back to the diagnostic they just ran:** "Last thing today. A minute ago you ran the leak-diagnostic *backwards* on your own business — found the hole and named the fix. Now we run the framework *forwards* on someone who got it all right. A fitness race nobody had heard of in 2017 is now a $130M brand with half a million athletes — and here's the claim I want you to test: HYROX didn't get lucky, it quietly executed *the entire morning* — create demand, capture, convert, keep, advocate — in one brand. You now have every tool to explain exactly *why* it worked. So don't guess and don't tell me 'good marketing' — walk it through the spine, stage by stage."
 
 **Let them struggle first, then reveal — answers mapped to the day:**
 
